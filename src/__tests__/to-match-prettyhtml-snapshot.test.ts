@@ -53,7 +53,7 @@ describe('custom global options', () => {
   test('with custom local options and hint', () => {
     expect(svg).toMatchPrettyHtmlSnapshot(
       {
-        singleQuote: true,
+        singleQuote: false,
         sortAttributes: true
       },
       'hint'
