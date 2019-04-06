@@ -38,7 +38,7 @@
     "postversion": "git push && git push --tags && npm publish",
     "release": "npm version -m 'Release v%s'",
     "test": "ts-node scripts/test",
-    "version": "run-s test changelog authors && git add ."
+    "version": "run-s ci changelog authors && git add ."
   },
   "peerDependencies": {
     "jest": "^24.0.0",
