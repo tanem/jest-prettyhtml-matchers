@@ -1,0 +1,110 @@
+import { spawnSync } from 'child_process'
+import fs from 'fs-extra'
+import path from 'path'
+
+const testTarget = process.env.TEST_TARGET || 'all'
+
+const installDeps = (dir: string) => {
+  spawnSync('npm', ['install'], {
+    cwd: dir,
+    stdio: 'inherit'
+  })
+}
+
+const runJest = (configPath: string) => {
+  spawnSync('jest', ['-c', configPath, process.argv.slice(2).join(' ')], {
+    stdio: 'inherit'
+  })
+}
+
+const getBaseConfig = (options = {}) => ({
+  preset: 'ts-jest',
+  testMatch: ['<rootDir>/src/__tests__/*.test.ts'],
+  ...options
+})
+
+const getSrcConfig = (options = {}) => getBaseConfig(options)
+
+const getDistConfig = (options = {}) =>
+  getBaseConfig({
+    moduleNameMapper: {
+      '^..$': '<rootDir>/dist'
+    },
+    ...options
+  })
+
+const runSrcTests = () => {
+  const srcConfigPath = path.join(process.cwd(), 'jest.config.src.json')
+  fs.writeFileSync(
+    srcConfigPath,
+    JSON.stringify(
+      getSrcConfig({
+        collectCoverage: true,
+        collectCoverageFrom: ['<rootDir>/src/*.ts']
+      })
+    )
+  )
+  runJest(srcConfigPath)
+}
+
+const runDistTests = () => {
+  const distConfigPath = path.join(process.cwd(), 'jest.config.dist.json')
+  fs.writeFileSync(distConfigPath, JSON.stringify(getDistConfig()))
+  runJest(distConfigPath)
+}
+
+const runJestVersionTests = (jestVersion: string) => {
+  const rootDir = path.join(process.cwd(), 'test/jest', jestVersion)
+  const srcDir = path.join(process.cwd(), 'src')
+  const distDir = path.join(process.cwd(), 'dist')
+
+  const targetSrcDir = path.join(rootDir, 'src')
+  const targetDistDir = path.join(rootDir, 'dist')
+  const srcConfigPath = path.join(rootDir, 'jest.config.src.json')
+  const distConfigPath = path.join(rootDir, 'jest.config.dist.json')
+
+  fs.copySync(srcDir, targetSrcDir)
+  fs.copySync(distDir, targetDistDir)
+
+  fs.writeFileSync(
+    srcConfigPath,
+    JSON.stringify(
+      getSrcConfig({
+        rootDir
+      })
+    )
+  )
+
+  fs.writeFileSync(
+    distConfigPath,
+    JSON.stringify(
+      getDistConfig({
+        rootDir
+      })
+    )
+  )
+
+  installDeps(rootDir)
+
+  runJest(srcConfigPath)
+  runJest(distConfigPath)
+}
+
+if (testTarget === 'src') {
+  runSrcTests()
+}
+
+if (testTarget === 'dist') {
+  runDistTests()
+}
+
+if (/^\d\d\.\d$/.test(testTarget)) {
+  runJestVersionTests(testTarget)
+}
+
+if (testTarget === 'all') {
+  runSrcTests()
+  runDistTests()
+  const jestVersions = fs.readdirSync(path.join(process.cwd(), 'test/jest'))
+  jestVersions.forEach(runJestVersionTests)
+}

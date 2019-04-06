@@ -1,0 +1,8 @@
+*.log
+.DS_Store
+TODO.md
+coverage/
+dist/
+jest.config.*
+node_modules/
+test/**/src/

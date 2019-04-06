@@ -1,0 +1,73 @@
+{
+  "name": "jest-prettyhtml-matchers",
+  "version": "1.0.0",
+  "description": "Custom jest snapshot matchers that use prettyhtml for formatting.",
+  "author": "Tane Morgan (https://github.com/tanem)",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/tanem/jest-prettyhtml-matchers",
+  "bugs": "https://github.com/tanem/jest-prettyhtml-matchers/issues",
+  "repository": "github:tanem/jest-prettyhtml-matchers",
+  "keywords": [
+    "jest",
+    "matchers",
+    "custom",
+    "snapshot",
+    "prettyhtml",
+    "javascript",
+    "typescript"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "// TODO": "fix the clean:jest cmd, maybe split it away? rimraf?",
+    "authors": "shelljs-authors > AUTHORS",
+    "// build": "run-s clean compile",
+    "check": "run-s check:*",
+    "check:format": "prettier --list-different \"**/*.{js,ts}\"",
+    "check:types": "tsc --noEmit",
+    "ci": "run-s check lint clean compile test",
+    "clean": "run-s clean:*",
+    "clean:coverage": "del coverage",
+    "clean:dist": "del dist ",
+    "// clean:test": "del 'jest.config.*.json' 'test/jest/**' '!test/jest' '!test/jest/*' '!test/jest/**/package*.json'",
+    "clean:test": "ts-node scripts/clean",
+    "compile": "tsc -p tsconfig.base.json",
+    "format": "prettier --write \"**/*.{js,ts}\"",
+    "lint": "eslint . --ext .js,.ts",
+    "postversion": "git push && git push --tags && npm publish",
+    "release": "npm version -m 'Release v%s'",
+    "version": "run-s test changelog authors && git add .",
+    "test": "ts-node scripts/test"
+  },
+  "peerDependencies": {
+    "jest": "^24.0.0",
+    "jest-snapshot": "^24.0.0"
+  },
+  "dependencies": {
+    "@starptech/prettyhtml": "^0.8.16"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^5.0.5",
+    "@types/glob": "^7.1.1",
+    "@types/jest": "^24.0.11",
+    "@typescript-eslint/eslint-plugin": "^1.5.0",
+    "@typescript-eslint/parser": "^1.5.0",
+    "del": "^4.0.0",
+    "del-cli": "^1.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "fs-extra": "^7.0.1",
+    "jest": "^24.6.0",
+    "jest-snapshot": "^24.6.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.16.4",
+    "shelljs": "^0.8.3",
+    "shelljs-plugin-authors": "^2.0.6",
+    "ts-jest": "^24.0.1",
+    "ts-node": "^8.0.3",
+    "typescript": "3.3.4000"
+  }
+}
