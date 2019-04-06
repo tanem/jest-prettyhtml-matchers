@@ -23,6 +23,7 @@
   "license": "MIT",
   "scripts": {
     "authors": "shelljs-authors > AUTHORS",
+    "changelog": "github_changelog_generator --no-issues --header-label \"# Changelog\" --future-release v$npm_package_version",
     "check": "run-s check:*",
     "check:format": "prettier --list-different \"**/*.{js,ts}\"",
     "check:types": "tsc --noEmit",
