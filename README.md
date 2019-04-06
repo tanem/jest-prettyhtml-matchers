@@ -1,9 +1,9 @@
 # jest-prettyhtml-matchers
 
-[![npm version](https://img.shields.io/npm/v/jest-pretttyhtml-matchers.svg?style=flat-square)](https://www.npmjs.com/package/jest-pretttyhtml-matchers)
-[![build status](https://img.shields.io/travis/tanem/jest-pretttyhtml-matchers/master.svg?style=flat-square)](https://travis-ci.org/tanem/jest-pretttyhtml-matchers)
-[![coverage status](https://img.shields.io/codecov/c/github/tanem/jest-pretttyhtml-matchers.svg?style=flat-square)](https://codecov.io/gh/tanem/jest-pretttyhtml-matchers)
-[![npm downloads](https://img.shields.io/npm/dm/jest-pretttyhtml-matchers.svg?style=flat-square)](https://www.npmjs.com/package/jest-pretttyhtml-matchers)
+[![npm version](https://img.shields.io/npm/v/jest-prettyhtml-matchers.svg?style=flat-square)](https://www.npmjs.com/package/jest-prettyhtml-matchers)
+[![build status](https://img.shields.io/travis/tanem/jest-prettyhtml-matchers/master.svg?style=flat-square)](https://travis-ci.org/tanem/jest-prettyhtml-matchers)
+[![coverage status](https://img.shields.io/codecov/c/github/tanem/jest-prettyhtml-matchers.svg?style=flat-square)](https://codecov.io/gh/tanem/jest-prettyhtml-matchers)
+[![npm downloads](https://img.shields.io/npm/dm/jest-prettyhtml-matchers.svg?style=flat-square)](https://www.npmjs.com/package/jest-prettyhtml-matchers)
 
 > Custom Jest snapshot matchers that use [prettyhtml](https://github.com/Prettyhtml/prettyhtml) to format strings.
 
