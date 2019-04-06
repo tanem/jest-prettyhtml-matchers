@@ -1,7 +1,7 @@
 {
   "name": "jest-prettyhtml-matchers",
-  "version": "1.0.0",
-  "description": "Custom jest snapshot matchers that use prettyhtml for formatting.",
+  "version": "0.0.1",
+  "description": "Custom Jest snapshot matchers that use prettyhtml to format strings.",
   "author": "Tane Morgan (https://github.com/tanem)",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -22,9 +22,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "// TODO": "fix the clean:jest cmd, maybe split it away? rimraf?",
     "authors": "shelljs-authors > AUTHORS",
-    "// build": "run-s clean compile",
     "check": "run-s check:*",
     "check:format": "prettier --list-different \"**/*.{js,ts}\"",
     "check:types": "tsc --noEmit",
@@ -32,15 +30,14 @@
     "clean": "run-s clean:*",
     "clean:coverage": "del coverage",
     "clean:dist": "del dist ",
-    "// clean:test": "del 'jest.config.*.json' 'test/jest/**' '!test/jest' '!test/jest/*' '!test/jest/**/package*.json'",
     "clean:test": "ts-node scripts/clean",
     "compile": "tsc -p tsconfig.base.json",
     "format": "prettier --write \"**/*.{js,ts}\"",
     "lint": "eslint . --ext .js,.ts",
     "postversion": "git push && git push --tags && npm publish",
     "release": "npm version -m 'Release v%s'",
-    "version": "run-s test changelog authors && git add .",
-    "test": "ts-node scripts/test"
+    "test": "ts-node scripts/test",
+    "version": "run-s test changelog authors && git add ."
   },
   "peerDependencies": {
     "jest": "^24.0.0",
