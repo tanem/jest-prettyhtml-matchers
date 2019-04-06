@@ -1,6 +1,13 @@
 # Changelog
 
-## [v1.0.0](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.0) (2019-04-07)
+## [v1.0.1](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.1) (2019-04-07)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.0...v1.0.1)
+
+**Merged pull requests:**
+
+- Fix badge links [\#4](https://github.com/tanem/jest-prettyhtml-matchers/pull/4) ([tanem](https://github.com/tanem))
+
+## [v1.0.0](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.0) (2019-04-06)
 **Merged pull requests:**
 
 - Fix release script [\#3](https://github.com/tanem/jest-prettyhtml-matchers/pull/3) ([tanem](https://github.com/tanem))
