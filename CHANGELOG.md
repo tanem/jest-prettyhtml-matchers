@@ -1,6 +1,20 @@
 # Changelog
 
-## [v1.0.1](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.1) (2019-04-07)
+## [v1.0.2](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.2) (2019-04-10)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.1...v1.0.2)
+
+**Merged pull requests:**
+
+- Fix type handling [\#12](https://github.com/tanem/jest-prettyhtml-matchers/pull/12) ([tanem](https://github.com/tanem))
+- Add Jest 24.6 tests [\#11](https://github.com/tanem/jest-prettyhtml-matchers/pull/11) ([tanem](https://github.com/tanem))
+- Update typescript-eslint monorepo to v1.6.0 [\#10](https://github.com/tanem/jest-prettyhtml-matchers/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
+- Update jest monorepo to v24.7.1 [\#9](https://github.com/tanem/jest-prettyhtml-matchers/pull/9) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency ts-jest to v24.0.2 [\#8](https://github.com/tanem/jest-prettyhtml-matchers/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency del to v4.1.0 [\#7](https://github.com/tanem/jest-prettyhtml-matchers/pull/7) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency typescript to v3.4.2 [\#6](https://github.com/tanem/jest-prettyhtml-matchers/pull/6) ([renovate[bot]](https://github.com/apps/renovate))
+- Pin dependencies [\#5](https://github.com/tanem/jest-prettyhtml-matchers/pull/5) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.0.1](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.1) (2019-04-06)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.0...v1.0.1)
 
 **Merged pull requests:**
