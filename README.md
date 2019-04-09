@@ -5,17 +5,23 @@
 [![coverage status](https://img.shields.io/codecov/c/github/tanem/jest-prettyhtml-matchers.svg?style=flat-square)](https://codecov.io/gh/tanem/jest-prettyhtml-matchers)
 [![npm downloads](https://img.shields.io/npm/dm/jest-prettyhtml-matchers.svg?style=flat-square)](https://www.npmjs.com/package/jest-prettyhtml-matchers)
 
-> Custom Jest snapshot matchers that use [prettyhtml](https://github.com/Prettyhtml/prettyhtml) to format strings.
+> Custom [Jest](https://jestjs.io/en/) snapshot matchers that use [prettyhtml](https://github.com/Prettyhtml/prettyhtml) to format strings.
 
 ## Basic Usage
 
-```js
+First, add the custom matchers to Jest. A convenient way to do this is via a setup file included in [`setupFilesAfterEnv`](https://jestjs.io/docs/en/configuration.html#setupfilesafterenv-array):
+
+```ts
+// setupTests.ts
 import { createPrettyHtmlMatchers } from 'jest-prettyhtml-matchers'
-
-// Add the custom matchers to Jest.
 expect.extend(createPrettyHtmlMatchers())
+```
 
-// Use the matchers in your tests.
+> Note for TypeScript users: To ensure the global jest declaration is augmented correctly, this file should be [included via your TypeScript configuration](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
+
+Now you can use the custom matchers in your tests:
+
+```ts
 expect(string).toMatchPrettyHtmlSnapshot()
 expect(string).toMatchInlinePrettyHtmlSnapshot()
 ```
