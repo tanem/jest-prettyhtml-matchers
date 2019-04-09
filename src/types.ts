@@ -15,17 +15,3 @@ export interface PrettyHtmlOptions {
 }
 
 export type Format = (input: string) => string
-
-declare global {
-  namespace jest {
-    interface Matchers<R> {
-      toMatchInlinePrettyHtmlSnapshot(
-        options?: PrettyHtmlOptions,
-        inlineSnapshot?: string
-      ): R
-      toMatchInlinePrettyHtmlSnapshot(inlineSnapshot?: string): R
-      toMatchPrettyHtmlSnapshot(options: PrettyHtmlOptions, hint?: string): R
-      toMatchPrettyHtmlSnapshot(hint?: string): R
-    }
-  }
-}
