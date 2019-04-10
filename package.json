@@ -18,6 +18,7 @@
     "matchers",
     "prettyhtml",
     "snapshot",
+    "testing",
     "typescript"
   ],
   "license": "MIT",
