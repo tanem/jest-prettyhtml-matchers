@@ -17,7 +17,7 @@ import { createPrettyHtmlMatchers } from 'jest-prettyhtml-matchers'
 expect.extend(createPrettyHtmlMatchers())
 ```
 
-> Note for TypeScript users: To ensure the global jest declaration is augmented correctly, this file should be [included via your TypeScript configuration](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html). There's an example of this setup in tanem/react-svg.
+> Note for TypeScript users: To ensure the global jest declaration is augmented correctly, this file should be [included via your TypeScript configuration](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html). There's an example of this setup in [tanem/react-svg](https://github.com/tanem/react-svg).
 
 Now you can use the custom matchers in your tests:
 
