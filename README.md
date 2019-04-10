@@ -12,12 +12,12 @@
 First, add the custom matchers to Jest. A convenient way to do this is via a setup file included in [`setupFilesAfterEnv`](https://jestjs.io/docs/en/configuration.html#setupfilesafterenv-array):
 
 ```ts
-// setupTests.ts
+// setupJest.js
 import { createPrettyHtmlMatchers } from 'jest-prettyhtml-matchers'
 expect.extend(createPrettyHtmlMatchers())
 ```
 
-> Note for TypeScript users: To ensure the global jest declaration is augmented correctly, this file should be [included via your TypeScript configuration](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
+> Note for TypeScript users: To ensure the global jest declaration is augmented correctly, this file should be [included via your TypeScript configuration](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html). There's an example of this setup in [tanem/react-svg](https://github.com/tanem/react-svg).
 
 Now you can use the custom matchers in your tests:
 
@@ -32,11 +32,9 @@ expect(string).toMatchInlinePrettyHtmlSnapshot()
 
 Generates the custom matchers so that they can be [added](https://jestjs.io/docs/en/expect#expectextendmatchers) to Jest.
 
-If `options` is not provided, [prettyhtml's default options](https://github.com/Prettyhtml/prettyhtml#options) will be used when formatting strings.
+#### Arguments
 
-If `options` is provided, it will be merged with prettyhtml's default options, and the merged options will be used when formatting strings.
-
-In both cases, the options will apply to all usages of the custom matchers, but can be overridden in the matcher calls themselves.
+- `options` - _Optional_ An object containing prettyhtml options. If `options` is not provided, [prettyhtml's default options](https://github.com/Prettyhtml/prettyhtml#options) will be used when formatting strings. If `options` is provided, it will be merged with prettyhtml's default options, and the merged options will be used when formatting strings. In both cases, the options will apply to all usages of the custom matchers, but can be overridden in the matcher calls themselves.
 
 #### Examples
 
