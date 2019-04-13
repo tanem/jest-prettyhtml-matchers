@@ -46,7 +46,7 @@
     "jest-snapshot": "^24.0.0"
   },
   "dependencies": {
-    "@starptech/prettyhtml": "^0.8.16"
+    "@starptech/prettyhtml": "^0.8.17"
   },
   "devDependencies": {
     "@types/fs-extra": "5.0.5",
