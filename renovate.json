@@ -5,6 +5,10 @@
     {
       "depTypeList": ["peerDependencies"],
       "rangeStrategy": "widen"
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "groupName": "dev dependencies"
     }
   ]
 }
