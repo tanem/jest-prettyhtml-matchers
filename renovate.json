@@ -8,7 +8,12 @@
     },
     {
       "depTypeList": ["devDependencies"],
+      "excludePackageNames": ["jest", "jest-snapshot"],
       "groupName": "dev dependencies"
+    },
+    {
+      "packageNames": ["jest", "jest-snapshot"],
+      "groupName": "jest"
     }
   ]
 }
