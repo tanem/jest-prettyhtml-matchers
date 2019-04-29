@@ -1,6 +1,14 @@
 # Changelog
 
-## [v1.0.8](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.8) (2019-04-28)
+## [v1.0.9](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.9) (2019-04-30)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.8...v1.0.9)
+
+**Merged pull requests:**
+
+- Update dev dependencies [\#30](https://github.com/tanem/jest-prettyhtml-matchers/pull/30) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dependency @starptech/prettyhtml to ^0.9.0 [\#29](https://github.com/tanem/jest-prettyhtml-matchers/pull/29) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.0.8](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.8) (2019-04-27)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.7...v1.0.8)
 
 **Merged pull requests:**
