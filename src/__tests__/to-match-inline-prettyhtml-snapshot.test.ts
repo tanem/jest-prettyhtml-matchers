@@ -16,10 +16,10 @@ describe('default global options', () => {
 >
   <defs>
     <mask id=\\"MaskTest\\" x=\\"0\\" y=\\"0\\" width=\\"100\\" height=\\"100\\">
-      <rect x=\\"0\\" y=\\"0\\" width=\\"64\\" height=\\"32\\" style=\\"stroke:none; fill:white\\"></rect>
+      <rect x=\\"0\\" y=\\"0\\" width=\\"64\\" height=\\"32\\" style=\\"stroke:none; fill:white\\" />
     </mask>
   </defs>
-  <rect x=\\"1\\" y=\\"1\\" width=\\"64\\" height=\\"64\\" stroke=\\"none\\" fill=\\"plum\\"></rect>
+  <rect x=\\"1\\" y=\\"1\\" width=\\"64\\" height=\\"64\\" stroke=\\"none\\" fill=\\"plum\\" />
   <rect
     x=\\"1\\"
     y=\\"1\\"
@@ -28,7 +28,7 @@ describe('default global options', () => {
     stroke=\\"none\\"
     fill=\\"gray\\"
     mask=\\"url(#MaskTest)\\"
-  ></rect>
+  />
 </svg>
 "
 `)
@@ -46,10 +46,10 @@ describe('default global options', () => {
 >
   <defs>
     <mask id='MaskTest' x='0' y='0' width='100' height='100'>
-      <rect x='0' y='0' width='64' height='32' style='stroke:none; fill:white'></rect>
+      <rect x='0' y='0' width='64' height='32' style='stroke:none; fill:white' />
     </mask>
   </defs>
-  <rect x='1' y='1' width='64' height='64' stroke='none' fill='plum'></rect>
+  <rect x='1' y='1' width='64' height='64' stroke='none' fill='plum' />
   <rect
     x='1'
     y='1'
@@ -58,7 +58,7 @@ describe('default global options', () => {
     stroke='none'
     fill='gray'
     mask='url(#MaskTest)'
-  ></rect>
+  />
 </svg>
 "
 `
@@ -81,10 +81,10 @@ describe('custom global options', () => {
 >
   <defs>
     <mask id='MaskTest' x='0' y='0' width='100' height='100'>
-      <rect x='0' y='0' width='64' height='32' style='stroke:none; fill:white'></rect>
+      <rect x='0' y='0' width='64' height='32' style='stroke:none; fill:white' />
     </mask>
   </defs>
-  <rect x='1' y='1' width='64' height='64' stroke='none' fill='plum'></rect>
+  <rect x='1' y='1' width='64' height='64' stroke='none' fill='plum' />
   <rect
     x='1'
     y='1'
@@ -93,7 +93,7 @@ describe('custom global options', () => {
     stroke='none'
     fill='gray'
     mask='url(#MaskTest)'
-  ></rect>
+  />
 </svg>
 "
 `)
@@ -111,10 +111,10 @@ describe('custom global options', () => {
 >
   <defs>
     <mask height=\\"100\\" id=\\"MaskTest\\" width=\\"100\\" x=\\"0\\" y=\\"0\\">
-      <rect height=\\"32\\" style=\\"stroke:none; fill:white\\" width=\\"64\\" x=\\"0\\" y=\\"0\\"></rect>
+      <rect height=\\"32\\" style=\\"stroke:none; fill:white\\" width=\\"64\\" x=\\"0\\" y=\\"0\\" />
     </mask>
   </defs>
-  <rect fill=\\"plum\\" height=\\"64\\" stroke=\\"none\\" width=\\"64\\" x=\\"1\\" y=\\"1\\"></rect>
+  <rect fill=\\"plum\\" height=\\"64\\" stroke=\\"none\\" width=\\"64\\" x=\\"1\\" y=\\"1\\" />
   <rect
     fill=\\"gray\\"
     height=\\"64\\"
@@ -123,7 +123,7 @@ describe('custom global options', () => {
     width=\\"64\\"
     x=\\"1\\"
     y=\\"1\\"
-  ></rect>
+  />
 </svg>
 "
 `
