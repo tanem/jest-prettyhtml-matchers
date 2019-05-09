@@ -1,6 +1,13 @@
 # Changelog
 
-## [v1.0.10](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.10) (2019-05-07)
+## [v1.0.11](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.11) (2019-05-10)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.10...v1.0.11)
+
+**Merged pull requests:**
+
+- Update dependency codecov to v3.4.0 [\#34](https://github.com/tanem/jest-prettyhtml-matchers/pull/34) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.0.10](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.10) (2019-05-06)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.9...v1.0.10)
 
 **Merged pull requests:**
