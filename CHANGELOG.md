@@ -1,6 +1,13 @@
 # Changelog
 
-## [v1.0.12](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.12) (2019-05-11)
+## [v1.0.13](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.13) (2019-05-13)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.12...v1.0.13)
+
+**Merged pull requests:**
+
+- Update dependency fs-extra to v8 [\#36](https://github.com/tanem/jest-prettyhtml-matchers/pull/36) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.0.12](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.12) (2019-05-10)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.11...v1.0.12)
 
 **Merged pull requests:**
