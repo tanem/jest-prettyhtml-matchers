@@ -1,6 +1,13 @@
 # Changelog
 
-## [v1.0.14](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.14) (2019-05-16)
+## [v1.0.15](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.15) (2019-05-21)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.14...v1.0.15)
+
+**Merged pull requests:**
+
+- Update dependency eslint-config-prettier to v4.3.0 [\#39](https://github.com/tanem/jest-prettyhtml-matchers/pull/39) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.0.14](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.14) (2019-05-15)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.13...v1.0.14)
 
 **Merged pull requests:**
