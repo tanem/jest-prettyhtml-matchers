@@ -17,6 +17,7 @@
       "rangeStrategy": "pin"
     },
     {
+      "depTypeList": ["devDependencies"],
       "extends": [":automergeDisabled"],
       "packageNames": ["jest", "jest-snapshot"],
       "rangeStrategy": "pin"
