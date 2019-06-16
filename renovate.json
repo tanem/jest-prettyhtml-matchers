@@ -1,5 +1,10 @@
 {
-  "extends": ["config:base", ":disableRateLimiting"],
+  "extends": [
+    "config:base",
+    ":automergeMinor",
+    ":disableRateLimiting",
+    ":rebaseStalePrs"
+  ],
   "rangeStrategy": "bump",
   "packageRules": [
     {
@@ -9,11 +14,12 @@
     {
       "depTypeList": ["devDependencies"],
       "excludePackageNames": ["jest", "jest-snapshot"],
-      "groupName": "dev dependencies"
+      "rangeStrategy": "pin"
     },
     {
+      "extends": [":automergeDisabled"],
       "packageNames": ["jest", "jest-snapshot"],
-      "groupName": "jest"
+      "rangeStrategy": "pin"
     }
   ]
 }
