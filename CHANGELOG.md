@@ -1,6 +1,14 @@
 # Changelog
 
-## [v1.0.17](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.17) (2019-06-17)
+## [v1.0.18](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.18) (2019-06-23)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.17...v1.0.18)
+
+**Merged pull requests:**
+
+- Reconfigure renovate [\#50](https://github.com/tanem/jest-prettyhtml-matchers/pull/50) ([tanem](https://github.com/tanem))
+- Update dependency @starptech/prettyhtml to ^0.10.0 [\#48](https://github.com/tanem/jest-prettyhtml-matchers/pull/48) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.0.17](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.17) (2019-06-16)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.16...v1.0.17)
 
 **Merged pull requests:**
@@ -31,6 +39,7 @@
 **Merged pull requests:**
 
 - Update dependency @types/fs-extra to v7 [\#38](https://github.com/tanem/jest-prettyhtml-matchers/pull/38) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dev dependencies [\#37](https://github.com/tanem/jest-prettyhtml-matchers/pull/37) ([renovate[bot]](https://github.com/apps/renovate))
 
 ## [v1.0.13](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.13) (2019-05-12)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.12...v1.0.13)
@@ -44,7 +53,6 @@
 
 **Merged pull requests:**
 
-- Update dev dependencies [\#37](https://github.com/tanem/jest-prettyhtml-matchers/pull/37) ([renovate[bot]](https://github.com/apps/renovate))
 - Update dev dependencies to v1.8.0 [\#35](https://github.com/tanem/jest-prettyhtml-matchers/pull/35) ([renovate[bot]](https://github.com/apps/renovate))
 
 ## [v1.0.11](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.11) (2019-05-09)
