@@ -1,26 +1,20 @@
 {
-  "extends": [
-    "config:base",
-    ":automergeMinor",
-    ":disableRateLimiting",
-    ":rebaseStalePrs"
-  ],
+  "extends": ["config:base", ":disableRateLimiting", ":rebaseStalePrs"],
   "rangeStrategy": "bump",
   "packageRules": [
     {
       "depTypeList": ["peerDependencies"],
+      "groupName": "peer dependencies",
       "rangeStrategy": "widen"
     },
     {
       "depTypeList": ["devDependencies"],
-      "excludePackageNames": ["jest", "jest-snapshot"],
+      "groupName": "dev dependencies",
       "rangeStrategy": "pin"
     },
     {
-      "depTypeList": ["devDependencies"],
-      "extends": [":automergeDisabled"],
-      "packageNames": ["jest", "jest-snapshot"],
-      "rangeStrategy": "pin"
+      "packagePatterns": ["^jest"],
+      "groupName": "jest monorepo"
     }
   ]
 }
