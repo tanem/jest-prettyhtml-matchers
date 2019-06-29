@@ -1,6 +1,13 @@
 # Changelog
 
-## [v1.0.19](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.19) (2019-06-29)
+## [v1.0.20](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.20) (2019-06-30)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.19...v1.0.20)
+
+**Merged pull requests:**
+
+- Update dependency shelljs-plugin-authors to v2.0.10 [\#54](https://github.com/tanem/jest-prettyhtml-matchers/pull/54) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.0.19](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.19) (2019-06-28)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.18...v1.0.19)
 
 **Merged pull requests:**
