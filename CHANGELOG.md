@@ -1,6 +1,15 @@
 # Changelog
 
-## [v1.0.22](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.22) (2019-07-11)
+## [v1.0.23](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.23) (2019-07-16)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.22...v1.0.23)
+
+**Merged pull requests:**
+
+- Fix audit issues [\#59](https://github.com/tanem/jest-prettyhtml-matchers/pull/59) ([tanem](https://github.com/tanem))
+- Fix audit issues [\#58](https://github.com/tanem/jest-prettyhtml-matchers/pull/58) ([tanem](https://github.com/tanem))
+- Update dev dependencies [\#57](https://github.com/tanem/jest-prettyhtml-matchers/pull/57) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.0.22](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.22) (2019-07-10)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.21...v1.0.22)
 
 **Merged pull requests:**
@@ -52,6 +61,7 @@
 
 **Merged pull requests:**
 
+- Update dependency del-cli to v2 [\#41](https://github.com/tanem/jest-prettyhtml-matchers/pull/41) ([renovate[bot]](https://github.com/apps/renovate))
 - Update dev dependencies [\#40](https://github.com/tanem/jest-prettyhtml-matchers/pull/40) ([renovate[bot]](https://github.com/apps/renovate))
 
 ## [v1.0.15](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.15) (2019-05-20)
@@ -59,7 +69,6 @@
 
 **Merged pull requests:**
 
-- Update dependency del-cli to v2 [\#41](https://github.com/tanem/jest-prettyhtml-matchers/pull/41) ([renovate[bot]](https://github.com/apps/renovate))
 - Update dependency eslint-config-prettier to v4.3.0 [\#39](https://github.com/tanem/jest-prettyhtml-matchers/pull/39) ([renovate[bot]](https://github.com/apps/renovate))
 
 ## [v1.0.14](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.14) (2019-05-15)
