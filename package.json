@@ -24,7 +24,7 @@
   "license": "MIT",
   "scripts": {
     "authors": "shelljs-authors > AUTHORS",
-    "changelog": "github_changelog_generator --no-issues --header-label \"# Changelog\" --future-release v$npm_package_version",
+    "changelog": "github-changelog-generator -f v$npm_package_version > CHANGELOG.md",
     "check": "run-s check:*",
     "check:format": "prettier --list-different \"**/*.{js,ts}\"",
     "check:types": "tsc --noEmit",
@@ -49,6 +49,7 @@
     "@starptech/prettyhtml": "^0.10.0"
   },
   "devDependencies": {
+    "@tanem/github-changelog-generator": "^1.0.1",
     "@types/fs-extra": "8.0.0",
     "@types/glob": "7.1.1",
     "@types/jest": "24.0.15",
