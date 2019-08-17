@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.0.29](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.29) (2019-08-18)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.28...v1.0.29)
+
+**Merged pull requests:**
+
+- Update jest monorepo to v24.9.0 [#69](https://github.com/tanem/jest-prettyhtml-matchers/pull/69) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.0.28](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.28) (2019-08-16)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.27...v1.0.28)
 
