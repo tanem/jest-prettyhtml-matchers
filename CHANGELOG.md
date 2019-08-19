@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.0.31](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.31) (2019-08-20)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.30...v1.0.31)
+
+**Merged pull requests:**
+
+- Update dependency tanem-scripts to v2.0.3 [#72](https://github.com/tanem/jest-prettyhtml-matchers/pull/72) ([renovate[bot]](https://github.com/apps/renovate))
+- Update dev dependencies [#71](https://github.com/tanem/jest-prettyhtml-matchers/pull/71) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.0.30](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.30) (2019-08-19)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.29...v1.0.30)
 
