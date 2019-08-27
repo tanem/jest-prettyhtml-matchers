@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.0.33](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.33) (2019-08-28)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.32...v1.0.33)
+
+**Merged pull requests:**
+
+- Bump eslint-utils from 1.4.0 to 1.4.2 [#74](https://github.com/tanem/jest-prettyhtml-matchers/pull/74) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.0.32](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.32) (2019-08-25)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.31...v1.0.32)
 
