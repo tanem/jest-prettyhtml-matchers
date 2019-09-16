@@ -66,7 +66,7 @@
     "prettier": "1.18.2",
     "tanem-scripts": "2.0.8",
     "ts-jest": "24.1.0",
-    "ts-node": "8.3.0",
+    "ts-node": "8.4.1",
     "typescript": "3.6.3"
   }
 }
