@@ -1,6 +1,6 @@
 {
   "name": "jest-prettyhtml-matchers",
-  "version": "1.0.38",
+  "version": "1.0.39",
   "description": "Custom Jest snapshot matchers that use prettyhtml to format strings.",
   "author": "Tane Morgan (https://github.com/tanem)",
   "main": "dist/index.js",
