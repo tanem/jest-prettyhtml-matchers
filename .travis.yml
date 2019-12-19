@@ -4,4 +4,4 @@ notifications:
 if: type = pull_request
 script:
   - npm run ci
-  - $(npm bin)/codecov
+  - npm run coverage

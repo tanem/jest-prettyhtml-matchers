@@ -23,8 +23,6 @@
   ],
   "license": "MIT",
   "scripts": {
-    "authors": "tanem-scripts authors > AUTHORS",
-    "changelog": "tanem-scripts changelog -f v$npm_package_version > CHANGELOG.md",
     "check": "run-s check:*",
     "check:format": "prettier --list-different \"**/*.{js,ts}\"",
     "check:types": "tsc --noEmit",
@@ -34,12 +32,11 @@
     "clean:dist": "del dist ",
     "clean:test": "ts-node scripts/clean",
     "compile": "tsc -p tsconfig.base.json",
+    "coverage": "codecov",
     "format": "prettier --write \"**/*.{js,ts}\"",
     "lint": "eslint . --ext .js,.ts",
-    "postversion": "git push && git push --tags && npm publish",
-    "release": "npm version -m 'Release v%s'",
-    "test": "ts-node scripts/test",
-    "version": "run-s ci changelog authors && git add ."
+    "release": "tanem-scripts release",
+    "test": "ts-node scripts/test"
   },
   "peerDependencies": {
     "jest": "^24.0.0",
