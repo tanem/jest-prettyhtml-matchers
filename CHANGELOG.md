@@ -1,342 +1,386 @@
 # Changelog
 
+## [v1.0.44](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.44) (2019-12-27)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.43...v1.0.44)
+
+#### :house: Internal
+
+- [#118](https://github.com/tanem/jest-prettyhtml-matchers/pull/118) Update typescript-eslint monorepo to v2.13.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#116](https://github.com/tanem/jest-prettyhtml-matchers/pull/116) Update dependency typescript to v3.7.4 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#115](https://github.com/tanem/jest-prettyhtml-matchers/pull/115) Update dependency eslint to v6.8.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#117](https://github.com/tanem/jest-prettyhtml-matchers/pull/117) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#113](https://github.com/tanem/jest-prettyhtml-matchers/pull/113) Update dependency @types/jest to v24.0.24 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#110](https://github.com/tanem/jest-prettyhtml-matchers/pull/110) Update typescript-eslint monorepo to v2.12.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#114](https://github.com/tanem/jest-prettyhtml-matchers/pull/114) Refactor scripts ([@tanem](https://github.com/tanem))
+- [#99](https://github.com/tanem/jest-prettyhtml-matchers/pull/99) Update dependency tanem-scripts to v5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#112](https://github.com/tanem/jest-prettyhtml-matchers/pull/112) Reconfigure renovate ([@tanem](https://github.com/tanem))
+- [#111](https://github.com/tanem/jest-prettyhtml-matchers/pull/111) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#109](https://github.com/tanem/jest-prettyhtml-matchers/pull/109) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#108](https://github.com/tanem/jest-prettyhtml-matchers/pull/108) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#107](https://github.com/tanem/jest-prettyhtml-matchers/pull/107) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#106](https://github.com/tanem/jest-prettyhtml-matchers/pull/106) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#105](https://github.com/tanem/jest-prettyhtml-matchers/pull/105) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#104](https://github.com/tanem/jest-prettyhtml-matchers/pull/104) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#103](https://github.com/tanem/jest-prettyhtml-matchers/pull/103) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#102](https://github.com/tanem/jest-prettyhtml-matchers/pull/102) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#101](https://github.com/tanem/jest-prettyhtml-matchers/pull/101) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#100](https://github.com/tanem/jest-prettyhtml-matchers/pull/100) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#98](https://github.com/tanem/jest-prettyhtml-matchers/pull/98) Update typescript-eslint monorepo to v2.11.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#97](https://github.com/tanem/jest-prettyhtml-matchers/pull/97) Update dependency typescript to v3.7.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#96](https://github.com/tanem/jest-prettyhtml-matchers/pull/96) Update dependency ts-node to v8.5.4 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#95](https://github.com/tanem/jest-prettyhtml-matchers/pull/95) Update dependency ts-jest to v24.2.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#94](https://github.com/tanem/jest-prettyhtml-matchers/pull/94) Update dependency prettier to v1.19.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#93](https://github.com/tanem/jest-prettyhtml-matchers/pull/93) Update dependency eslint-config-prettier to v6.7.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#92](https://github.com/tanem/jest-prettyhtml-matchers/pull/92) Update dependency eslint to v6.7.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#90](https://github.com/tanem/jest-prettyhtml-matchers/pull/90) Update dependency @types/jest to v24.0.23 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#89](https://github.com/tanem/jest-prettyhtml-matchers/pull/89) Reconfigure tooling ([@tanem](https://github.com/tanem))
+
 ## [v1.0.43](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.43) (2019-10-31)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.42...v1.0.43)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#85](https://github.com/tanem/jest-prettyhtml-matchers/pull/85) ([renovate[bot]](https://github.com/apps/renovate))
+- [#85](https://github.com/tanem/jest-prettyhtml-matchers/pull/85) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.42](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.42) (2019-10-13)
+## [v1.0.42](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.42) (2019-10-12)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.41...v1.0.42)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#84](https://github.com/tanem/jest-prettyhtml-matchers/pull/84) ([renovate[bot]](https://github.com/apps/renovate))
+- [#84](https://github.com/tanem/jest-prettyhtml-matchers/pull/84) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.41](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.41) (2019-10-08)
+## [v1.0.41](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.41) (2019-10-07)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.40...v1.0.41)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#83](https://github.com/tanem/jest-prettyhtml-matchers/pull/83) ([renovate[bot]](https://github.com/apps/renovate))
+- [#83](https://github.com/tanem/jest-prettyhtml-matchers/pull/83) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.40](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.40) (2019-09-29)
+## [v1.0.40](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.40) (2019-09-28)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.39...v1.0.40)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#82](https://github.com/tanem/jest-prettyhtml-matchers/pull/82) ([renovate[bot]](https://github.com/apps/renovate))
+- [#82](https://github.com/tanem/jest-prettyhtml-matchers/pull/82) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.39](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.39) (2019-09-22)
+## [v1.0.39](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.39) (2019-09-21)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.38...v1.0.39)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#81](https://github.com/tanem/jest-prettyhtml-matchers/pull/81) ([renovate[bot]](https://github.com/apps/renovate))
+- [#81](https://github.com/tanem/jest-prettyhtml-matchers/pull/81) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.38](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.38) (2019-09-18)
+## [v1.0.38](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.38) (2019-09-17)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.37...v1.0.38)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#80](https://github.com/tanem/jest-prettyhtml-matchers/pull/80) ([renovate[bot]](https://github.com/apps/renovate))
+- [#80](https://github.com/tanem/jest-prettyhtml-matchers/pull/80) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
 ## [v1.0.37](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.37) (2019-09-16)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.36...v1.0.37)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency ts-node to v8.4.1 [#79](https://github.com/tanem/jest-prettyhtml-matchers/pull/79) ([renovate[bot]](https://github.com/apps/renovate))
+- [#79](https://github.com/tanem/jest-prettyhtml-matchers/pull/79) Update dependency ts-node to v8.4.1 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.36](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.36) (2019-09-16)
+## [v1.0.36](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.36) (2019-09-15)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.35...v1.0.36)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#78](https://github.com/tanem/jest-prettyhtml-matchers/pull/78) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency del-cli to v3 [#77](https://github.com/tanem/jest-prettyhtml-matchers/pull/77) ([renovate[bot]](https://github.com/apps/renovate))
+- [#78](https://github.com/tanem/jest-prettyhtml-matchers/pull/78) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
+- [#77](https://github.com/tanem/jest-prettyhtml-matchers/pull/77) Update dependency del-cli to v3 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.35](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.35) (2019-09-08)
+## [v1.0.35](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.35) (2019-09-07)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.34...v1.0.35)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#76](https://github.com/tanem/jest-prettyhtml-matchers/pull/76) ([renovate[bot]](https://github.com/apps/renovate))
+- [#76](https://github.com/tanem/jest-prettyhtml-matchers/pull/76) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.34](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.34) (2019-08-28)
+## [v1.0.34](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.34) (2019-08-27)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.33...v1.0.34)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency tanem-scripts to v2.0.6 [#75](https://github.com/tanem/jest-prettyhtml-matchers/pull/75) ([renovate[bot]](https://github.com/apps/renovate))
+- [#75](https://github.com/tanem/jest-prettyhtml-matchers/pull/75) Update dependency tanem-scripts to v2.0.6 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.33](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.33) (2019-08-28)
+## [v1.0.33](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.33) (2019-08-27)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.32...v1.0.33)
 
-**Merged pull requests:**
+#### :question: Unlabelled
 
-- Bump eslint-utils from 1.4.0 to 1.4.2 [#74](https://github.com/tanem/jest-prettyhtml-matchers/pull/74) ([dependabot[bot]](https://github.com/apps/dependabot))
+- [#74](https://github.com/tanem/jest-prettyhtml-matchers/pull/74) Bump eslint-utils from 1.4.0 to 1.4.2 ([@dependabot[bot]](https://github.com/apps/dependabot))
 
-## [v1.0.32](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.32) (2019-08-25)
+## [v1.0.32](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.32) (2019-08-24)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.31...v1.0.32)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#73](https://github.com/tanem/jest-prettyhtml-matchers/pull/73) ([renovate[bot]](https://github.com/apps/renovate))
+- [#73](https://github.com/tanem/jest-prettyhtml-matchers/pull/73) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.31](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.31) (2019-08-20)
+## [v1.0.31](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.31) (2019-08-19)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.30...v1.0.31)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency tanem-scripts to v2.0.3 [#72](https://github.com/tanem/jest-prettyhtml-matchers/pull/72) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dev dependencies [#71](https://github.com/tanem/jest-prettyhtml-matchers/pull/71) ([renovate[bot]](https://github.com/apps/renovate))
+- [#72](https://github.com/tanem/jest-prettyhtml-matchers/pull/72) Update dependency tanem-scripts to v2.0.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#71](https://github.com/tanem/jest-prettyhtml-matchers/pull/71) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.30](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.30) (2019-08-19)
+## [v1.0.30](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.30) (2019-08-18)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.29...v1.0.30)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency tanem-scripts to v2.0.2 [#70](https://github.com/tanem/jest-prettyhtml-matchers/pull/70) ([renovate[bot]](https://github.com/apps/renovate))
+- [#70](https://github.com/tanem/jest-prettyhtml-matchers/pull/70) Update dependency tanem-scripts to v2.0.2 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.29](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.29) (2019-08-18)
+## [v1.0.29](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.29) (2019-08-17)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.28...v1.0.29)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update jest monorepo to v24.9.0 [#69](https://github.com/tanem/jest-prettyhtml-matchers/pull/69) ([renovate[bot]](https://github.com/apps/renovate))
+- [#69](https://github.com/tanem/jest-prettyhtml-matchers/pull/69) Update jest monorepo to v24.9.0 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.28](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.28) (2019-08-16)
+## [v1.0.28](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.28) (2019-08-15)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.27...v1.0.28)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies to v2 (major) [#68](https://github.com/tanem/jest-prettyhtml-matchers/pull/68) ([renovate[bot]](https://github.com/apps/renovate))
+- [#68](https://github.com/tanem/jest-prettyhtml-matchers/pull/68) Update dev dependencies to v2 (major) ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.27](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.27) (2019-08-11)
+## [v1.0.27](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.27) (2019-08-10)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.26...v1.0.27)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency tanem-scripts to v2.0.1 [#67](https://github.com/tanem/jest-prettyhtml-matchers/pull/67) ([renovate[bot]](https://github.com/apps/renovate))
+- [#67](https://github.com/tanem/jest-prettyhtml-matchers/pull/67) Update dependency tanem-scripts to v2.0.1 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.26](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.26) (2019-08-09)
+## [v1.0.26](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.26) (2019-08-08)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.25...v1.0.26)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency @types/jest to v24.0.17 [#65](https://github.com/tanem/jest-prettyhtml-matchers/pull/65) ([renovate[bot]](https://github.com/apps/renovate))
-- Use tanem-scripts [#66](https://github.com/tanem/jest-prettyhtml-matchers/pull/66) ([tanem](https://github.com/tanem))
+- [#65](https://github.com/tanem/jest-prettyhtml-matchers/pull/65) Update dependency @types/jest to v24.0.17 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#66](https://github.com/tanem/jest-prettyhtml-matchers/pull/66) Use tanem-scripts ([@tanem](https://github.com/tanem))
 
 ## [v1.0.25](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.25) (2019-07-27)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.24...v1.0.25)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency @tanem/github-changelog-generator to v1.0.2 [#63](https://github.com/tanem/jest-prettyhtml-matchers/pull/63) ([renovate[bot]](https://github.com/apps/renovate))
-- Use @tanem/authors [#64](https://github.com/tanem/jest-prettyhtml-matchers/pull/64) ([tanem](https://github.com/tanem))
+- [#63](https://github.com/tanem/jest-prettyhtml-matchers/pull/63) Update dependency @tanem/github-changelog-generator to v1.0.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#64](https://github.com/tanem/jest-prettyhtml-matchers/pull/64) Use @tanem/authors ([@tanem](https://github.com/tanem))
 
 ## [v1.0.24](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.24) (2019-07-22)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.23...v1.0.24)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Pin dependency @tanem/github-changelog-generator to 1.0.1 [#62](https://github.com/tanem/jest-prettyhtml-matchers/pull/62) ([renovate[bot]](https://github.com/apps/renovate))
-- Update changelog generation script [#61](https://github.com/tanem/jest-prettyhtml-matchers/pull/61) ([tanem](https://github.com/tanem))
-- Update dev dependencies [#60](https://github.com/tanem/jest-prettyhtml-matchers/pull/60) ([renovate[bot]](https://github.com/apps/renovate))
+- [#62](https://github.com/tanem/jest-prettyhtml-matchers/pull/62) Pin dependency @tanem/github-changelog-generator to 1.0.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#61](https://github.com/tanem/jest-prettyhtml-matchers/pull/61) Update changelog generation script ([@tanem](https://github.com/tanem))
+- [#60](https://github.com/tanem/jest-prettyhtml-matchers/pull/60) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
 ## [v1.0.23](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.23) (2019-07-16)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.22...v1.0.23)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Fix audit issues [#59](https://github.com/tanem/jest-prettyhtml-matchers/pull/59) ([tanem](https://github.com/tanem))
-- Update dev dependencies [#57](https://github.com/tanem/jest-prettyhtml-matchers/pull/57) ([renovate[bot]](https://github.com/apps/renovate))
-- Fix audit issues [#58](https://github.com/tanem/jest-prettyhtml-matchers/pull/58) ([tanem](https://github.com/tanem))
+- [#57](https://github.com/tanem/jest-prettyhtml-matchers/pull/57) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.22](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.22) (2019-07-11)
+#### :question: Unlabelled
+
+- [#59](https://github.com/tanem/jest-prettyhtml-matchers/pull/59) Fix audit issues ([@tanem](https://github.com/tanem))
+- [#58](https://github.com/tanem/jest-prettyhtml-matchers/pull/58) Fix audit issues ([@tanem](https://github.com/tanem))
+
+## [v1.0.22](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.22) (2019-07-10)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.21...v1.0.22)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency typescript to v3.5.3 [#56](https://github.com/tanem/jest-prettyhtml-matchers/pull/56) ([renovate[bot]](https://github.com/apps/renovate))
+- [#56](https://github.com/tanem/jest-prettyhtml-matchers/pull/56) Update dependency typescript to v3.5.3 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.21](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.21) (2019-07-03)
+## [v1.0.21](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.21) (2019-07-02)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.20...v1.0.21)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency del to v5 [#55](https://github.com/tanem/jest-prettyhtml-matchers/pull/55) ([renovate[bot]](https://github.com/apps/renovate))
+- [#55](https://github.com/tanem/jest-prettyhtml-matchers/pull/55) Update dependency del to v5 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.20](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.20) (2019-06-30)
+## [v1.0.20](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.20) (2019-06-29)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.19...v1.0.20)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency shelljs-plugin-authors to v2.0.10 [#54](https://github.com/tanem/jest-prettyhtml-matchers/pull/54) ([renovate[bot]](https://github.com/apps/renovate))
+- [#54](https://github.com/tanem/jest-prettyhtml-matchers/pull/54) Update dependency shelljs-plugin-authors to v2.0.10 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.19](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.19) (2019-06-29)
+## [v1.0.19](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.19) (2019-06-28)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.18...v1.0.19)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies (major) [#53](https://github.com/tanem/jest-prettyhtml-matchers/pull/53) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dev dependencies [#52](https://github.com/tanem/jest-prettyhtml-matchers/pull/52) ([renovate[bot]](https://github.com/apps/renovate))
+- [#53](https://github.com/tanem/jest-prettyhtml-matchers/pull/53) Update dev dependencies (major) ([@renovate[bot]](https://github.com/apps/renovate))
+- [#52](https://github.com/tanem/jest-prettyhtml-matchers/pull/52) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.18](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.18) (2019-06-23)
+## [v1.0.18](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.18) (2019-06-22)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.17...v1.0.18)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Reconfigure renovate [#50](https://github.com/tanem/jest-prettyhtml-matchers/pull/50) ([tanem](https://github.com/tanem))
-- Update dependency @starptech/prettyhtml to ^0.10.0 [#48](https://github.com/tanem/jest-prettyhtml-matchers/pull/48) ([renovate[bot]](https://github.com/apps/renovate))
+- [#50](https://github.com/tanem/jest-prettyhtml-matchers/pull/50) Reconfigure renovate ([@tanem](https://github.com/tanem))
+- [#48](https://github.com/tanem/jest-prettyhtml-matchers/pull/48) Update dependency @starptech/prettyhtml to ^0.10.0 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.17](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.17) (2019-06-17)
+## [v1.0.17](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.17) (2019-06-16)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.16...v1.0.17)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency eslint-config-prettier to v5 [#46](https://github.com/tanem/jest-prettyhtml-matchers/pull/46) ([renovate[bot]](https://github.com/apps/renovate))
-- Reconfigure renovate [#47](https://github.com/tanem/jest-prettyhtml-matchers/pull/47) ([tanem](https://github.com/tanem))
-- Reconfigure renovate [#44](https://github.com/tanem/jest-prettyhtml-matchers/pull/44) ([tanem](https://github.com/tanem))
-- Update dev dependencies [#42](https://github.com/tanem/jest-prettyhtml-matchers/pull/42) ([renovate[bot]](https://github.com/apps/renovate))
+- [#46](https://github.com/tanem/jest-prettyhtml-matchers/pull/46) Update dependency eslint-config-prettier to v5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#47](https://github.com/tanem/jest-prettyhtml-matchers/pull/47) Reconfigure renovate ([@tanem](https://github.com/tanem))
+- [#44](https://github.com/tanem/jest-prettyhtml-matchers/pull/44) Reconfigure renovate ([@tanem](https://github.com/tanem))
+- [#42](https://github.com/tanem/jest-prettyhtml-matchers/pull/42) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.16](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.16) (2019-05-31)
+## [v1.0.16](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.16) (2019-05-30)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.15...v1.0.16)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency del-cli to v2 [#41](https://github.com/tanem/jest-prettyhtml-matchers/pull/41) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dev dependencies [#40](https://github.com/tanem/jest-prettyhtml-matchers/pull/40) ([renovate[bot]](https://github.com/apps/renovate))
+- [#41](https://github.com/tanem/jest-prettyhtml-matchers/pull/41) Update dependency del-cli to v2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#40](https://github.com/tanem/jest-prettyhtml-matchers/pull/40) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.15](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.15) (2019-05-21)
+## [v1.0.15](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.15) (2019-05-20)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.14...v1.0.15)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency eslint-config-prettier to v4.3.0 [#39](https://github.com/tanem/jest-prettyhtml-matchers/pull/39) ([renovate[bot]](https://github.com/apps/renovate))
+- [#39](https://github.com/tanem/jest-prettyhtml-matchers/pull/39) Update dependency eslint-config-prettier to v4.3.0 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.14](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.14) (2019-05-16)
+## [v1.0.14](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.14) (2019-05-15)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.13...v1.0.14)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency @types/fs-extra to v7 [#38](https://github.com/tanem/jest-prettyhtml-matchers/pull/38) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dev dependencies [#37](https://github.com/tanem/jest-prettyhtml-matchers/pull/37) ([renovate[bot]](https://github.com/apps/renovate))
+- [#38](https://github.com/tanem/jest-prettyhtml-matchers/pull/38) Update dependency @types/fs-extra to v7 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#37](https://github.com/tanem/jest-prettyhtml-matchers/pull/37) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.13](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.13) (2019-05-13)
+## [v1.0.13](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.13) (2019-05-12)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.12...v1.0.13)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency fs-extra to v8 [#36](https://github.com/tanem/jest-prettyhtml-matchers/pull/36) ([renovate[bot]](https://github.com/apps/renovate))
+- [#36](https://github.com/tanem/jest-prettyhtml-matchers/pull/36) Update dependency fs-extra to v8 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.12](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.12) (2019-05-11)
+## [v1.0.12](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.12) (2019-05-10)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.11...v1.0.12)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies to v1.8.0 [#35](https://github.com/tanem/jest-prettyhtml-matchers/pull/35) ([renovate[bot]](https://github.com/apps/renovate))
+- [#35](https://github.com/tanem/jest-prettyhtml-matchers/pull/35) Update dev dependencies to v1.8.0 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.11](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.11) (2019-05-10)
+## [v1.0.11](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.11) (2019-05-09)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.10...v1.0.11)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dependency codecov to v3.4.0 [#34](https://github.com/tanem/jest-prettyhtml-matchers/pull/34) ([renovate[bot]](https://github.com/apps/renovate))
+- [#34](https://github.com/tanem/jest-prettyhtml-matchers/pull/34) Update dependency codecov to v3.4.0 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.10](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.10) (2019-05-07)
+## [v1.0.10](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.10) (2019-05-06)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.9...v1.0.10)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update jest to v24.8.0 [#33](https://github.com/tanem/jest-prettyhtml-matchers/pull/33) ([tanem](https://github.com/tanem))
-- Update dependency @types/fs-extra to v5.1.0 [#32](https://github.com/tanem/jest-prettyhtml-matchers/pull/32) ([renovate[bot]](https://github.com/apps/renovate))
+- [#33](https://github.com/tanem/jest-prettyhtml-matchers/pull/33) Update jest to v24.8.0 ([@tanem](https://github.com/tanem))
+- [#32](https://github.com/tanem/jest-prettyhtml-matchers/pull/32) Update dependency @types/fs-extra to v5.1.0 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.9](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.9) (2019-04-30)
+## [v1.0.9](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.9) (2019-04-29)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.8...v1.0.9)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#30](https://github.com/tanem/jest-prettyhtml-matchers/pull/30) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency @starptech/prettyhtml to ^0.9.0 [#29](https://github.com/tanem/jest-prettyhtml-matchers/pull/29) ([renovate[bot]](https://github.com/apps/renovate))
+- [#30](https://github.com/tanem/jest-prettyhtml-matchers/pull/30) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
+- [#29](https://github.com/tanem/jest-prettyhtml-matchers/pull/29) Update dependency @starptech/prettyhtml to ^0.9.0 ([@renovate[bot]](https://github.com/apps/renovate))
 
-## [v1.0.8](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.8) (2019-04-28)
+## [v1.0.8](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.8) (2019-04-27)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.7...v1.0.8)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#28](https://github.com/tanem/jest-prettyhtml-matchers/pull/28) ([renovate[bot]](https://github.com/apps/renovate))
+- [#28](https://github.com/tanem/jest-prettyhtml-matchers/pull/28) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
 
 ## [v1.0.7](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.7) (2019-04-21)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.6...v1.0.7)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Fix audit issues [#27](https://github.com/tanem/jest-prettyhtml-matchers/pull/27) ([tanem](https://github.com/tanem))
+- [#27](https://github.com/tanem/jest-prettyhtml-matchers/pull/27) Fix audit issues ([@tanem](https://github.com/tanem))
 
 ## [v1.0.6](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.6) (2019-04-21)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.5...v1.0.6)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update dev dependencies [#25](https://github.com/tanem/jest-prettyhtml-matchers/pull/25) ([renovate[bot]](https://github.com/apps/renovate))
-- Reconfigure Renovate [#26](https://github.com/tanem/jest-prettyhtml-matchers/pull/26) ([tanem](https://github.com/tanem))
-- Reconfigure Renovate [#24](https://github.com/tanem/jest-prettyhtml-matchers/pull/24) ([tanem](https://github.com/tanem))
+- [#25](https://github.com/tanem/jest-prettyhtml-matchers/pull/25) Update dev dependencies ([@renovate[bot]](https://github.com/apps/renovate))
+- [#26](https://github.com/tanem/jest-prettyhtml-matchers/pull/26) Reconfigure Renovate ([@tanem](https://github.com/tanem))
+- [#24](https://github.com/tanem/jest-prettyhtml-matchers/pull/24) Reconfigure Renovate ([@tanem](https://github.com/tanem))
 
 ## [v1.0.5](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.5) (2019-04-15)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.4...v1.0.5)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Reconfigure Renovate [#21](https://github.com/tanem/jest-prettyhtml-matchers/pull/21) ([tanem](https://github.com/tanem))
-- Update dependency ts-node to v8.1.0 [#20](https://github.com/tanem/jest-prettyhtml-matchers/pull/20) ([renovate[bot]](https://github.com/apps/renovate))
+- [#21](https://github.com/tanem/jest-prettyhtml-matchers/pull/21) Reconfigure Renovate ([@tanem](https://github.com/tanem))
+- [#20](https://github.com/tanem/jest-prettyhtml-matchers/pull/20) Update dependency ts-node to v8.1.0 ([@renovate[bot]](https://github.com/apps/renovate))
 
 ## [v1.0.4](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.4) (2019-04-13)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.3...v1.0.4)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Update jest monorepo to ^24.7.1 [#19](https://github.com/tanem/jest-prettyhtml-matchers/pull/19) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency prettier to v1.17.0 [#16](https://github.com/tanem/jest-prettyhtml-matchers/pull/16) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency @starptech/prettyhtml to ^0.8.17 [#18](https://github.com/tanem/jest-prettyhtml-matchers/pull/18) ([renovate[bot]](https://github.com/apps/renovate))
-- Reconfigure Renovate [#17](https://github.com/tanem/jest-prettyhtml-matchers/pull/17) ([tanem](https://github.com/tanem))
+- [#19](https://github.com/tanem/jest-prettyhtml-matchers/pull/19) Update jest monorepo to ^24.7.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#16](https://github.com/tanem/jest-prettyhtml-matchers/pull/16) Update dependency prettier to v1.17.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#18](https://github.com/tanem/jest-prettyhtml-matchers/pull/18) Update dependency @starptech/prettyhtml to ^0.8.17 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#17](https://github.com/tanem/jest-prettyhtml-matchers/pull/17) Reconfigure Renovate ([@tanem](https://github.com/tanem))
 
-## [v1.0.3](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.3) (2019-04-11)
+## [v1.0.3](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.3) (2019-04-10)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.2...v1.0.3)
 
-**Merged pull requests:**
+#### :memo: Documentation
 
-- Update keywords [#15](https://github.com/tanem/jest-prettyhtml-matchers/pull/15) ([tanem](https://github.com/tanem))
-- Improve docs [#14](https://github.com/tanem/jest-prettyhtml-matchers/pull/14) ([tanem](https://github.com/tanem))
-- Update dependency typescript to v3.4.3 [#13](https://github.com/tanem/jest-prettyhtml-matchers/pull/13) ([renovate[bot]](https://github.com/apps/renovate))
+- [#14](https://github.com/tanem/jest-prettyhtml-matchers/pull/14) Improve docs ([@tanem](https://github.com/tanem))
 
-## [v1.0.2](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.2) (2019-04-10)
+#### :house: Internal
+
+- [#15](https://github.com/tanem/jest-prettyhtml-matchers/pull/15) Update keywords ([@tanem](https://github.com/tanem))
+- [#13](https://github.com/tanem/jest-prettyhtml-matchers/pull/13) Update dependency typescript to v3.4.3 ([@renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.0.2](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.2) (2019-04-09)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.1...v1.0.2)
 
-**Merged pull requests:**
+#### :bug: Bug Fix
 
-- Fix type handling [#12](https://github.com/tanem/jest-prettyhtml-matchers/pull/12) ([tanem](https://github.com/tanem))
-- Add Jest 24.6 tests [#11](https://github.com/tanem/jest-prettyhtml-matchers/pull/11) ([tanem](https://github.com/tanem))
-- Update jest monorepo to v24.7.1 [#9](https://github.com/tanem/jest-prettyhtml-matchers/pull/9) ([renovate[bot]](https://github.com/apps/renovate))
-- Update typescript-eslint monorepo to v1.6.0 [#10](https://github.com/tanem/jest-prettyhtml-matchers/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency ts-jest to v24.0.2 [#8](https://github.com/tanem/jest-prettyhtml-matchers/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency del to v4.1.0 [#7](https://github.com/tanem/jest-prettyhtml-matchers/pull/7) ([renovate[bot]](https://github.com/apps/renovate))
-- Update dependency typescript to v3.4.2 [#6](https://github.com/tanem/jest-prettyhtml-matchers/pull/6) ([renovate[bot]](https://github.com/apps/renovate))
-- Pin dependencies [#5](https://github.com/tanem/jest-prettyhtml-matchers/pull/5) ([renovate[bot]](https://github.com/apps/renovate))
+- [#12](https://github.com/tanem/jest-prettyhtml-matchers/pull/12) Fix type handling ([@tanem](https://github.com/tanem))
 
-## [v1.0.1](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.1) (2019-04-07)
+#### :house: Internal
+
+- [#11](https://github.com/tanem/jest-prettyhtml-matchers/pull/11) Add Jest 24.6 tests ([@tanem](https://github.com/tanem))
+- [#9](https://github.com/tanem/jest-prettyhtml-matchers/pull/9) Update jest monorepo to v24.7.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#10](https://github.com/tanem/jest-prettyhtml-matchers/pull/10) Update typescript-eslint monorepo to v1.6.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#8](https://github.com/tanem/jest-prettyhtml-matchers/pull/8) Update dependency ts-jest to v24.0.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#7](https://github.com/tanem/jest-prettyhtml-matchers/pull/7) Update dependency del to v4.1.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#6](https://github.com/tanem/jest-prettyhtml-matchers/pull/6) Update dependency typescript to v3.4.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#5](https://github.com/tanem/jest-prettyhtml-matchers/pull/5) Pin dependencies ([@renovate[bot]](https://github.com/apps/renovate))
+
+## [v1.0.1](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.1) (2019-04-06)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.0...v1.0.1)
 
-**Merged pull requests:**
+#### :memo: Documentation
 
-- Fix badge links [#4](https://github.com/tanem/jest-prettyhtml-matchers/pull/4) ([tanem](https://github.com/tanem))
+- [#4](https://github.com/tanem/jest-prettyhtml-matchers/pull/4) Fix badge links ([@tanem](https://github.com/tanem))
 
-## [v1.0.0](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.0) (2019-04-07)
+## [v1.0.0](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.0) (2019-04-06)
 
-**Merged pull requests:**
+#### :house: Internal
 
-- Fix release script [#3](https://github.com/tanem/jest-prettyhtml-matchers/pull/3) ([tanem](https://github.com/tanem))
-- Fix release process [#2](https://github.com/tanem/jest-prettyhtml-matchers/pull/2) ([tanem](https://github.com/tanem))
-- Initialise repo [#1](https://github.com/tanem/jest-prettyhtml-matchers/pull/1) ([tanem](https://github.com/tanem))
+- [#3](https://github.com/tanem/jest-prettyhtml-matchers/pull/3) Fix release script ([@tanem](https://github.com/tanem))
+- [#2](https://github.com/tanem/jest-prettyhtml-matchers/pull/2) Fix release process ([@tanem](https://github.com/tanem))
+- [#1](https://github.com/tanem/jest-prettyhtml-matchers/pull/1) Initialise repo ([@tanem](https://github.com/tanem))
