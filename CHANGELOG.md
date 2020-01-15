@@ -1,5 +1,23 @@
 # Changelog
 
+## [v1.0.45](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.45) (2020-01-15)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.44...v1.0.45)
+
+#### :house: Internal
+
+- [#134](https://github.com/tanem/jest-prettyhtml-matchers/pull/134) Add jest 24.9 tests ([@tanem](https://github.com/tanem))
+- [#130](https://github.com/tanem/jest-prettyhtml-matchers/pull/130) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#128](https://github.com/tanem/jest-prettyhtml-matchers/pull/128) Update dependency ts-jest to v24.3.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#127](https://github.com/tanem/jest-prettyhtml-matchers/pull/127) Update typescript-eslint monorepo to v2.15.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#126](https://github.com/tanem/jest-prettyhtml-matchers/pull/126) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#125](https://github.com/tanem/jest-prettyhtml-matchers/pull/125) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#124](https://github.com/tanem/jest-prettyhtml-matchers/pull/124) Update dependency tanem-scripts to v5.0.4 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#123](https://github.com/tanem/jest-prettyhtml-matchers/pull/123) Update typescript-eslint monorepo to v2.14.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#119](https://github.com/tanem/jest-prettyhtml-matchers/pull/119) Update dependency eslint-config-prettier to v6.9.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#122](https://github.com/tanem/jest-prettyhtml-matchers/pull/122) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#120](https://github.com/tanem/jest-prettyhtml-matchers/pull/120) Update dependency @types/jest to v24.0.25 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#121](https://github.com/tanem/jest-prettyhtml-matchers/pull/121) Update dependency tanem-scripts to v5.0.3 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.0.44](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.44) (2019-12-27)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.43...v1.0.44)
 
