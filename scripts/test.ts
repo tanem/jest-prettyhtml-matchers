@@ -11,8 +11,9 @@ const installDeps = (dir: string) => {
   })
 }
 
-const runJest = (configPath: string) => {
+const runJest = (configPath: string, dir?: string) => {
   spawnSync('jest', ['-c', configPath, process.argv.slice(2).join(' ')], {
+    cwd: dir,
     stdio: 'inherit'
   })
 }
@@ -86,8 +87,8 @@ const runJestVersionTests = (jestVersion: string) => {
 
   installDeps(rootDir)
 
-  runJest(srcConfigPath)
-  runJest(distConfigPath)
+  runJest(srcConfigPath, rootDir)
+  runJest(distConfigPath, rootDir)
 }
 
 if (testTarget === 'src') {
