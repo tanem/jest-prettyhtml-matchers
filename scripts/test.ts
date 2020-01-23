@@ -5,7 +5,7 @@ import path from 'path'
 const testTarget = process.env.TEST_TARGET || 'all'
 
 const installDeps = (dir: string) => {
-  spawnSync('npm', ['install'], {
+  spawnSync('npm', ['install', '--no-package-lock'], {
     cwd: dir,
     stdio: 'inherit'
   })
