@@ -15,5 +15,9 @@ export const createToMatchPrettyHtmlSnapshot = (format: Format) =>
       hint = options
     }
 
-    return toMatchSnapshot.call(this, format(received), hint)
+    if (hint) {
+      return toMatchSnapshot.call(this, format(received), hint)
+    }
+
+    return toMatchSnapshot.call(this, format(received))
   }
