@@ -1,8 +1,6 @@
 {
   "private": true,
   "devDependencies": {
-    "jest": "25.1",
-    "jest-cli": "25.1",
-    "jest-snapshot": "25.1"
+    "jest": "25.1"
   }
 }
