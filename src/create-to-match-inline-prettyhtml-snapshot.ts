@@ -24,9 +24,13 @@ export const createToMatchInlinePrettyHtmlSnapshot = (format: Format) =>
 
     const newContext = { ...this, error }
 
-    return toMatchInlineSnapshot.call(
-      newContext,
-      format(received),
-      inlineSnapshot
-    )
+    if (inlineSnapshot) {
+      return toMatchInlineSnapshot.call(
+        newContext,
+        format(received),
+        inlineSnapshot
+      )
+    }
+
+    return toMatchInlineSnapshot.call(newContext, format(received))
   }
