@@ -2,27 +2,24 @@
   "extends": [
     "config:js-lib",
     ":rebaseStalePrs",
-    ":automergeMinor",
+    ":automergeAll",
     ":label(internal)",
     ":masterIssue"
   ],
   "lockFileMaintenance": {
     "enabled": true
   },
-  "stabilityDays": 3,
   "packageRules": [
     {
-      "sourceUrlPrefixes": ["https://github.com/tanem/"],
-      "stabilityDays": 0
-    },
-    {
-      "packagePatterns": ["^jest"],
+      "automerge": false,
       "groupName": "jest monorepo",
-      "automerge": false
+      "sourceUrlPrefixes": ["https://github.com/facebook/jest"]
     },
     {
       "depTypeList": ["dependencies"],
       "rangeStrategy": "bump"
     }
-  ]
+  ],
+  "prCreation": "not-pending",
+  "stabilityDays": 3
 }
