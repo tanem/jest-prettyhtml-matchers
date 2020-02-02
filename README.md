@@ -7,6 +7,8 @@
 
 > Custom [Jest](https://jestjs.io/en/) snapshot matchers that use [prettyhtml](https://github.com/Prettyhtml/prettyhtml) to format strings.
 
+[Basic Usage](#basic-usage) | [API](#api) | [Installation](#installation) | [License](#license)
+
 ## Basic Usage
 
 First, add the custom matchers to Jest. A convenient way to do this is via a setup file included in [`setupFilesAfterEnv`](https://jestjs.io/docs/en/configuration.html#setupfilesafterenv-array):
