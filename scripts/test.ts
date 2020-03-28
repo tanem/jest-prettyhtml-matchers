@@ -7,21 +7,21 @@ const testTarget = process.env.TEST_TARGET || 'all'
 const installDeps = (dir: string) => {
   spawnSync('npm', ['install', '--no-package-lock'], {
     cwd: dir,
-    stdio: 'inherit'
+    stdio: 'inherit',
   })
 }
 
 const runJest = (configPath: string, dir?: string) => {
   spawnSync('jest', ['-c', configPath, process.argv.slice(2).join(' ')], {
     cwd: dir,
-    stdio: 'inherit'
+    stdio: 'inherit',
   })
 }
 
 const getBaseConfig = (options = {}) => ({
   preset: 'ts-jest',
   testMatch: ['<rootDir>/src/__tests__/*.test.ts'],
-  ...options
+  ...options,
 })
 
 const getSrcConfig = (options = {}) => getBaseConfig(options)
@@ -29,9 +29,9 @@ const getSrcConfig = (options = {}) => getBaseConfig(options)
 const getDistConfig = (options = {}) =>
   getBaseConfig({
     moduleNameMapper: {
-      '^..$': '<rootDir>/dist'
+      '^..$': '<rootDir>/dist',
     },
-    ...options
+    ...options,
   })
 
 const runSrcTests = () => {
@@ -41,7 +41,7 @@ const runSrcTests = () => {
     JSON.stringify(
       getSrcConfig({
         collectCoverage: true,
-        collectCoverageFrom: ['<rootDir>/src/*.ts']
+        collectCoverageFrom: ['<rootDir>/src/*.ts'],
       })
     )
   )
@@ -71,7 +71,7 @@ const runJestVersionTests = (jestVersion: string) => {
     srcConfigPath,
     JSON.stringify(
       getSrcConfig({
-        rootDir
+        rootDir,
       })
     )
   )
@@ -80,7 +80,7 @@ const runJestVersionTests = (jestVersion: string) => {
     distConfigPath,
     JSON.stringify(
       getDistConfig({
-        rootDir
+        rootDir,
       })
     )
   )
