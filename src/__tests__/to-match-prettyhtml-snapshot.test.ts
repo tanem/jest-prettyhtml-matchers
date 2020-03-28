@@ -16,14 +16,14 @@ describe('default global options', () => {
 
   test('with custom local options', () => {
     expect(svg).toMatchPrettyHtmlSnapshot({
-      singleQuote: true
+      singleQuote: true,
     })
   })
 
   test('with custom local options and hint', () => {
     expect(svg).toMatchPrettyHtmlSnapshot(
       {
-        singleQuote: true
+        singleQuote: true,
       },
       'hint'
     )
@@ -46,7 +46,7 @@ describe('custom global options', () => {
   test('with custom local options', () => {
     expect(svg).toMatchPrettyHtmlSnapshot({
       singleQuote: false,
-      sortAttributes: true
+      sortAttributes: true,
     })
   })
 
@@ -54,7 +54,7 @@ describe('custom global options', () => {
     expect(svg).toMatchPrettyHtmlSnapshot(
       {
         singleQuote: false,
-        sortAttributes: true
+        sortAttributes: true,
       },
       'hint'
     )

@@ -6,8 +6,8 @@ delSync('jest.config.*.json')
 
 const jestVersions = fs.readdirSync(path.join(process.cwd(), 'test/jest'))
 
-jestVersions.forEach(jestVersion => {
+jestVersions.forEach((jestVersion) => {
   delSync(['**/*', '!package.json'], {
-    cwd: path.join(process.cwd(), 'test/jest', jestVersion)
+    cwd: path.join(process.cwd(), 'test/jest', jestVersion),
   })
 })

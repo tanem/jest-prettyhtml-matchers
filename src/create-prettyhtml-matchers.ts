@@ -25,6 +25,6 @@ export const createPrettyHtmlMatchers = (options: PrettyHtmlOptions = {}) => {
   )
   return {
     toMatchPrettyHtmlSnapshot,
-    toMatchInlinePrettyHtmlSnapshot
+    toMatchInlinePrettyHtmlSnapshot,
   }
 }
