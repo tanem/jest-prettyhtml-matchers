@@ -7,10 +7,14 @@ let status
 const testTarget = process.env.TEST_TARGET || 'all'
 
 const installDeps = (dir: string) => {
-  spawnSync('npm', ['install', '--no-package-lock'], {
-    cwd: dir,
-    stdio: 'inherit',
-  })
+  spawnSync(
+    'npm',
+    ['install', '--no-package-lock', '--quiet', '--no-progress'],
+    {
+      cwd: dir,
+      stdio: 'inherit',
+    }
+  )
 }
 
 const runJest = (configPath: string, dir?: string) => {
@@ -41,6 +45,7 @@ const getDistConfig = (options = {}) =>
   })
 
 const runSrcTests = () => {
+  console.log('Testing src')
   const srcConfigPath = path.join(process.cwd(), 'jest.config.src.json')
   fs.writeFileSync(
     srcConfigPath,
@@ -55,12 +60,14 @@ const runSrcTests = () => {
 }
 
 const runDistTests = () => {
+  console.log('Testing dist')
   const distConfigPath = path.join(process.cwd(), 'jest.config.dist.json')
   fs.writeFileSync(distConfigPath, JSON.stringify(getDistConfig()))
   runJest(distConfigPath)
 }
 
 const runJestVersionTests = (jestVersion: string) => {
+  console.log(`Testing ${jestVersion}`)
   const rootDir = path.join(process.cwd(), 'test/jest', jestVersion)
   const srcDir = path.join(process.cwd(), 'src')
   const distDir = path.join(process.cwd(), 'dist')
