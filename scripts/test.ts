@@ -2,6 +2,8 @@ import { spawnSync } from 'child_process'
 import fs from 'fs-extra'
 import path from 'path'
 
+let status
+
 const testTarget = process.env.TEST_TARGET || 'all'
 
 const installDeps = (dir: string) => {
@@ -12,10 +14,14 @@ const installDeps = (dir: string) => {
 }
 
 const runJest = (configPath: string, dir?: string) => {
-  spawnSync('jest', ['-c', configPath, process.argv.slice(2).join(' ')], {
-    cwd: dir,
-    stdio: 'inherit',
-  })
+  ;({ status } = spawnSync(
+    'jest',
+    ['-c', configPath, process.argv.slice(2).join(' ')],
+    {
+      cwd: dir,
+      stdio: 'inherit',
+    }
+  ))
 }
 
 const getBaseConfig = (options = {}) => ({
@@ -109,3 +115,5 @@ if (testTarget === 'all') {
   const jestVersions = fs.readdirSync(path.join(process.cwd(), 'test/jest'))
   jestVersions.forEach(runJestVersionTests)
 }
+
+process.exit(status)
