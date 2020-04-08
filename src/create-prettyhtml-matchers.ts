@@ -1,7 +1,7 @@
 import { createFormatter } from './create-formatter'
 import { createToMatchInlinePrettyHtmlSnapshot } from './create-to-match-inline-prettyhtml-snapshot'
 import { createToMatchPrettyHtmlSnapshot } from './create-to-match-prettyhtml-snapshot'
-import { PrettyHtmlOptions } from './types'
+import type { PrettyHtmlOptions } from './types'
 
 declare global {
   namespace jest {

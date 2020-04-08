@@ -2,23 +2,36 @@ import { spawnSync } from 'child_process'
 import fs from 'fs-extra'
 import path from 'path'
 
+let status
+
 const testTarget = process.env.TEST_TARGET || 'all'
 
 const installDeps = (dir: string) => {
-  spawnSync('npm', ['install', '--no-package-lock'], {
-    cwd: dir,
-    stdio: 'inherit',
-  })
+  spawnSync(
+    'npm',
+    ['install', '--no-package-lock', '--quiet', '--no-progress'],
+    {
+      cwd: dir,
+      stdio: 'inherit',
+    }
+  )
 }
 
 const runJest = (configPath: string, dir?: string) => {
-  spawnSync('jest', ['-c', configPath, process.argv.slice(2).join(' ')], {
-    cwd: dir,
-    stdio: 'inherit',
-  })
+  ;({ status } = spawnSync(
+    'jest',
+    ['-c', configPath, process.argv.slice(2).join(' ')],
+    {
+      cwd: dir,
+      stdio: 'inherit',
+    }
+  ))
 }
 
 const getBaseConfig = (options = {}) => ({
+  moduleNameMapper: {
+    '^jest-prettyhtml-matchers$': '<rootDir>/src',
+  },
   preset: 'ts-jest',
   testMatch: ['<rootDir>/src/__tests__/*.test.ts'],
   ...options,
@@ -29,12 +42,13 @@ const getSrcConfig = (options = {}) => getBaseConfig(options)
 const getDistConfig = (options = {}) =>
   getBaseConfig({
     moduleNameMapper: {
-      '^..$': '<rootDir>/dist',
+      '^jest-prettyhtml-matchers$': '<rootDir>/dist',
     },
     ...options,
   })
 
 const runSrcTests = () => {
+  console.log('Testing src')
   const srcConfigPath = path.join(process.cwd(), 'jest.config.src.json')
   fs.writeFileSync(
     srcConfigPath,
@@ -49,12 +63,14 @@ const runSrcTests = () => {
 }
 
 const runDistTests = () => {
+  console.log('Testing dist')
   const distConfigPath = path.join(process.cwd(), 'jest.config.dist.json')
   fs.writeFileSync(distConfigPath, JSON.stringify(getDistConfig()))
   runJest(distConfigPath)
 }
 
 const runJestVersionTests = (jestVersion: string) => {
+  console.log(`Testing ${jestVersion}`)
   const rootDir = path.join(process.cwd(), 'test/jest', jestVersion)
   const srcDir = path.join(process.cwd(), 'src')
   const distDir = path.join(process.cwd(), 'dist')
@@ -109,3 +125,5 @@ if (testTarget === 'all') {
   const jestVersions = fs.readdirSync(path.join(process.cwd(), 'test/jest'))
   jestVersions.forEach(runJestVersionTests)
 }
+
+process.exit(status)
