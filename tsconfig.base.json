@@ -3,6 +3,7 @@
     "declaration": true,
     "declarationDir": "dist",
     "esModuleInterop": true,
+    "importsNotUsedAsValues": "error",
     "module": "commonjs",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,

@@ -1,6 +1,6 @@
 import { toMatchInlineSnapshot } from 'jest-snapshot'
 import { createFormatter } from './create-formatter'
-import { Format, PrettyHtmlOptions } from './types'
+import type { Format, PrettyHtmlOptions } from './types'
 
 export const createToMatchInlinePrettyHtmlSnapshot = (format: Format) =>
   function toMatchInlinePrettyHtmlSnapshot(

@@ -1,5 +1,5 @@
 import prettyhtml from '@starptech/prettyhtml'
-import { Format, PrettyHtmlOptions } from './types'
+import type { Format, PrettyHtmlOptions } from './types'
 
 export const createFormatter = (options: PrettyHtmlOptions): Format => (
   input
