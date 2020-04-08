@@ -1,4 +1,7 @@
-import { createPrettyHtmlMatchers } from '..'
+// @ts-ignore: Using `jest-prettyhtml-matchers` as the module name to reduce the
+// chance of collisions with other modules when using Jest's `moduleNameMapper`
+// option.
+import { createPrettyHtmlMatchers } from 'jest-prettyhtml-matchers'
 import { svg } from './svg'
 
 describe('default global options', () => {

@@ -29,6 +29,9 @@ const runJest = (configPath: string, dir?: string) => {
 }
 
 const getBaseConfig = (options = {}) => ({
+  moduleNameMapper: {
+    '^jest-prettyhtml-matchers$': '<rootDir>/src',
+  },
   preset: 'ts-jest',
   testMatch: ['<rootDir>/src/__tests__/*.test.ts'],
   ...options,
@@ -39,7 +42,7 @@ const getSrcConfig = (options = {}) => getBaseConfig(options)
 const getDistConfig = (options = {}) =>
   getBaseConfig({
     moduleNameMapper: {
-      '^..$': '<rootDir>/dist',
+      '^jest-prettyhtml-matchers$': '<rootDir>/dist',
     },
     ...options,
   })
