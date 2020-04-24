@@ -53,7 +53,7 @@
     "del": "5.1.0",
     "del-cli": "3.0.0",
     "eslint": "6.8.0",
-    "eslint-config-prettier": "6.10.1",
+    "eslint-config-prettier": "6.11.0",
     "fs-extra": "9.0.0",
     "jest": "25.4.0",
     "jest-snapshot": "25.4.0",
