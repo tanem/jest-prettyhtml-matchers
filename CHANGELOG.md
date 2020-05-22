@@ -1,5 +1,16 @@
 # Changelog
 
+## [v1.0.57](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.57) (2020-05-22)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.56...v1.0.57)
+
+#### :house: Internal
+
+- [#215](https://github.com/tanem/jest-prettyhtml-matchers/pull/215) Update dependency @types/jest to v25.2.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#214](https://github.com/tanem/jest-prettyhtml-matchers/pull/214) Update dependency tanem-scripts to v5.0.23 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#213](https://github.com/tanem/jest-prettyhtml-matchers/pull/213) Update dependency del-cli to v3.0.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#212](https://github.com/tanem/jest-prettyhtml-matchers/pull/212) Update dependency ts-jest to v26 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#211](https://github.com/tanem/jest-prettyhtml-matchers/pull/211) Update dependency @types/fs-extra to v9 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.0.56](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.0.56) (2020-05-17)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.0.55...v1.0.56)
 
