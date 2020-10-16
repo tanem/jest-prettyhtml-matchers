@@ -14,7 +14,8 @@
       "automerge": false,
       "groupName": "jest monorepo",
       "labels": ["enhancement"],
-      "sourceUrlPrefixes": ["https://github.com/facebook/jest"]
+      "sourceUrlPrefixes": ["https://github.com/facebook/jest"],
+      "updateTypes": ["major", "minor"]
     },
     {
       "depTypeList": ["dependencies"],
