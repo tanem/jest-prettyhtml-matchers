@@ -5,7 +5,7 @@ import type { PrettyHtmlOptions } from './types'
 
 declare global {
   namespace jest {
-    interface Matchers<R, T> {
+    interface Matchers<R> {
       toMatchInlinePrettyHtmlSnapshot(inlineSnapshot?: string): R
       toMatchInlinePrettyHtmlSnapshot(
         options?: PrettyHtmlOptions,

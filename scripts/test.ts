@@ -6,7 +6,17 @@ let status
 
 const testTarget = process.env.TEST_TARGET || 'all'
 
-const installDeps = (dir: string) => {
+const installPrereqs = (dir: string) => {
+  spawnSync('nvm', ['i'], {
+    cwd: dir,
+    stdio: 'inherit',
+  })
+
+  spawnSync('nvm', ['install-latest-npm'], {
+    cwd: dir,
+    stdio: 'inherit',
+  })
+
   spawnSync(
     'npm',
     ['install', '--no-package-lock', '--quiet', '--no-progress'],
@@ -101,7 +111,7 @@ const runJestVersionTests = (jestVersion: string) => {
     )
   )
 
-  installDeps(rootDir)
+  installPrereqs(rootDir)
 
   runJest(srcConfigPath, rootDir)
   runJest(distConfigPath, rootDir)
