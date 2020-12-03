@@ -1,7 +1,7 @@
 # jest-prettyhtml-matchers
 
 [![npm version](https://img.shields.io/npm/v/jest-prettyhtml-matchers.svg?style=flat-square)](https://www.npmjs.com/package/jest-prettyhtml-matchers)
-[![build status](https://img.shields.io/travis/tanem/jest-prettyhtml-matchers/master.svg?style=flat-square)](https://travis-ci.org/tanem/jest-prettyhtml-matchers)
+[![build status](https://img.shields.io/github/workflow/status/tanem/jest-prettyhtml-matchers/CI?style=flat-square)](https://github.com/tanem/jest-prettyhtml-matchers/actions?query=workflow%3ACI)
 [![coverage status](https://img.shields.io/codecov/c/github/tanem/jest-prettyhtml-matchers.svg?style=flat-square)](https://codecov.io/gh/tanem/jest-prettyhtml-matchers)
 [![npm downloads](https://img.shields.io/npm/dm/jest-prettyhtml-matchers.svg?style=flat-square)](https://www.npmjs.com/package/jest-prettyhtml-matchers)
 
