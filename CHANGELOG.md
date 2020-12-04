@@ -1,5 +1,15 @@
 # Changelog
 
+## [v1.4.3](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.4.3) (2020-12-04)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.4.2...v1.4.3)
+
+#### :house: Internal
+
+- [#338](https://github.com/tanem/jest-prettyhtml-matchers/pull/338) Switch from travis to gh actions ([@tanem](https://github.com/tanem))
+- [#337](https://github.com/tanem/jest-prettyhtml-matchers/pull/337) Update typescript-eslint monorepo to v4.9.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#336](https://github.com/tanem/jest-prettyhtml-matchers/pull/336) Update dependency prettier to v2.2.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#335](https://github.com/tanem/jest-prettyhtml-matchers/pull/335) Update dependency tanem-scripts to v6.0.2 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.4.2](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.4.2) (2020-11-27)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.4.1...v1.4.2)
 
