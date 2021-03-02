@@ -5,11 +5,7 @@ module.exports = {
     project: 'tsconfig.json',
     sourceType: 'module',
   },
-  extends: [
-    'plugin:@typescript-eslint/recommended',
-    'prettier',
-    'prettier/@typescript-eslint',
-  ],
+  extends: ['plugin:@typescript-eslint/recommended', 'prettier'],
   plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/ban-ts-comment': 'off',
