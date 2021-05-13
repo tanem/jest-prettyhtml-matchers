@@ -20,9 +20,8 @@ declare global {
 export const createPrettyHtmlMatchers = (options: PrettyHtmlOptions = {}) => {
   const format = createFormatter(options)
   const toMatchPrettyHtmlSnapshot = createToMatchPrettyHtmlSnapshot(format)
-  const toMatchInlinePrettyHtmlSnapshot = createToMatchInlinePrettyHtmlSnapshot(
-    format
-  )
+  const toMatchInlinePrettyHtmlSnapshot =
+    createToMatchInlinePrettyHtmlSnapshot(format)
   return {
     toMatchPrettyHtmlSnapshot,
     toMatchInlinePrettyHtmlSnapshot,
