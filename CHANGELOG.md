@@ -1,5 +1,16 @@
 # Changelog
 
+## [v1.5.0](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.5.0) (2021-06-16)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.4.16...v1.5.0)
+
+#### :rocket: Enhancement
+
+- [#426](https://github.com/tanem/jest-prettyhtml-matchers/pull/426) Update jest monorepo to v27 (major) ([@renovate[bot]](https://github.com/apps/renovate))
+
+#### :house: Internal
+
+- [#433](https://github.com/tanem/jest-prettyhtml-matchers/pull/433) Update dependency tanem-scripts to v6.0.19 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.4.16](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.4.16) (2021-06-13)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.4.15...v1.4.16)
 
