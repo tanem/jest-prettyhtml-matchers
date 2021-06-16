@@ -1,6 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "jest": "26.2"
+    "jest": "26.2",
+    "ts-jest": "26.x"
   }
 }
