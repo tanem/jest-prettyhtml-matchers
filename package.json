@@ -52,7 +52,7 @@
     "@typescript-eslint/parser": "4.28.0",
     "del": "6.0.0",
     "del-cli": "4.0.0",
-    "eslint": "7.28.0",
+    "eslint": "7.29.0",
     "eslint-config-prettier": "8.3.0",
     "fs-extra": "10.0.0",
     "jest": "27.0.4",
