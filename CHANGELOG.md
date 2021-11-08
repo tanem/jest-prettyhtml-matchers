@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.8.1](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.8.1) (2021-11-08)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.8.0...v1.8.1)
+
+#### :house: Internal
+
+- [#509](https://github.com/tanem/jest-prettyhtml-matchers/pull/509) Housekeeping ([@tanem](https://github.com/tanem))
+
 ## [v1.8.0](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.8.0) (2021-11-05)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.7.5...v1.8.0)
 
