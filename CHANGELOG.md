@@ -1,5 +1,18 @@
 # Changelog
 
+## [v1.8.5](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.8.5) (2021-12-17)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.8.4...v1.8.5)
+
+#### :house: Internal
+
+- [#525](https://github.com/tanem/jest-prettyhtml-matchers/pull/525) Update dependency typescript to v4.5.4 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#524](https://github.com/tanem/jest-prettyhtml-matchers/pull/524) Update typescript-eslint monorepo to v5.7.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#523](https://github.com/tanem/jest-prettyhtml-matchers/pull/523) Update dependency typescript to v4.5.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#522](https://github.com/tanem/jest-prettyhtml-matchers/pull/522) Update dependency ts-jest to v27.1.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#521](https://github.com/tanem/jest-prettyhtml-matchers/pull/521) Update dependency eslint to v8.4.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#520](https://github.com/tanem/jest-prettyhtml-matchers/pull/520) Update typescript-eslint monorepo to v5.6.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#519](https://github.com/tanem/jest-prettyhtml-matchers/pull/519) Update dependency prettier to v2.5.1 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.8.4](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.8.4) (2021-12-03)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.8.3...v1.8.4)
 
