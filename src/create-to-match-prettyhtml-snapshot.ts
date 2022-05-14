@@ -16,6 +16,8 @@ export const createToMatchPrettyHtmlSnapshot = (format: Format) =>
     }
 
     if (hint) {
+      // @ts-ignore: Broken since type def changes in this PR
+      // https://github.com/facebook/jest/pull/12376.
       return toMatchSnapshot.call(this, format(received), hint)
     }
 

@@ -28,6 +28,8 @@ export const createToMatchInlinePrettyHtmlSnapshot = (format: Format) =>
       return toMatchInlineSnapshot.call(
         newContext,
         format(received),
+        // @ts-ignore: Broken since type def changes in this PR
+        // https://github.com/facebook/jest/pull/12376.
         inlineSnapshot
       )
     }
