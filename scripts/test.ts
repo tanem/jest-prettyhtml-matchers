@@ -32,6 +32,7 @@ const runJest = (configPath: string, dir = '') => {
     path.join(dir, 'node_modules', '.bin', 'jest'),
     ['-c', configPath, process.argv.slice(2).join(' ')],
     {
+      cwd: dir,
       stdio: 'inherit',
     }
   ))
