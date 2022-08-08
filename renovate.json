@@ -21,6 +21,12 @@
     {
       "depTypeList": ["dependencies"],
       "rangeStrategy": "bump"
+    },
+    {
+      "matchPackageNames": [
+        "del"
+      ],
+      "allowedVersions": "< 7.0.0"
     }
   ],
   "prCreation": "not-pending",
