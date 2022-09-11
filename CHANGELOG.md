@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.12.0](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.12.0) (2022-09-11)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.11.12...v1.12.0)
+
+#### :rocket: Enhancement
+
+- [#661](https://github.com/tanem/jest-prettyhtml-matchers/pull/661) Update jest monorepo to v29 (major) ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.11.12](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.11.12) (2022-09-09)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.11.11...v1.11.12)
 
