@@ -27,7 +27,7 @@ const installPrereqs = (dir: string) => {
   )
 }
 
-const runJest = (configPath: string, dir = '') => {
+const runJest = (configPath: string, dir = process.cwd()) => {
   ;({ status } = spawnSync(
     path.join(dir, 'node_modules', '.bin', 'jest'),
     ['-c', configPath, process.argv.slice(2).join(' ')],
