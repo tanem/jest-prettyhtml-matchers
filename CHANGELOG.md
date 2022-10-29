@@ -1,5 +1,34 @@
 # Changelog
 
+## [v1.13.0](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.13.0) (2022-10-29)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.12.1...v1.13.0)
+
+#### :rocket: Enhancement
+
+- [#687](https://github.com/tanem/jest-prettyhtml-matchers/pull/687) Update jest monorepo ([@renovate[bot]](https://github.com/apps/renovate))
+- [#681](https://github.com/tanem/jest-prettyhtml-matchers/pull/681) Update jest monorepo to v29.1.2 ([@renovate[bot]](https://github.com/apps/renovate))
+
+#### :house: Internal
+
+- [#690](https://github.com/tanem/jest-prettyhtml-matchers/pull/690) Update typescript-eslint monorepo to v5.41.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#689](https://github.com/tanem/jest-prettyhtml-matchers/pull/689) Update dependency eslint to v8.26.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#688](https://github.com/tanem/jest-prettyhtml-matchers/pull/688) Update typescript-eslint monorepo to v5.40.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#686](https://github.com/tanem/jest-prettyhtml-matchers/pull/686) Update styfle/cancel-workflow-action action to v0.11.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#685](https://github.com/tanem/jest-prettyhtml-matchers/pull/685) Update typescript-eslint monorepo to v5.40.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#684](https://github.com/tanem/jest-prettyhtml-matchers/pull/684) Update dependency tanem-scripts to v6.0.61 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#683](https://github.com/tanem/jest-prettyhtml-matchers/pull/683) Update dependency eslint to v8.25.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#682](https://github.com/tanem/jest-prettyhtml-matchers/pull/682) Update typescript-eslint monorepo to v5.39.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#680](https://github.com/tanem/jest-prettyhtml-matchers/pull/680) Update dependency ts-jest to v29.0.3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#679](https://github.com/tanem/jest-prettyhtml-matchers/pull/679) Update styfle/cancel-workflow-action action to v0.10.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#678](https://github.com/tanem/jest-prettyhtml-matchers/pull/678) Update dependency typescript to v4.8.4 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#677](https://github.com/tanem/jest-prettyhtml-matchers/pull/677) Update typescript-eslint monorepo to v5.38.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#676](https://github.com/tanem/jest-prettyhtml-matchers/pull/676) Update dependency ts-jest to v29.0.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#675](https://github.com/tanem/jest-prettyhtml-matchers/pull/675) Update dependency eslint to v8.24.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#674](https://github.com/tanem/jest-prettyhtml-matchers/pull/674) Use codecov action ([@tanem](https://github.com/tanem))
+- [#673](https://github.com/tanem/jest-prettyhtml-matchers/pull/673) Update typescript-eslint monorepo to v5.38.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#672](https://github.com/tanem/jest-prettyhtml-matchers/pull/672) Update dependency tanem-scripts to v6.0.60 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#671](https://github.com/tanem/jest-prettyhtml-matchers/pull/671) Update dependency @types/jest to v29.0.3 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.12.1](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.12.1) (2022-09-18)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.12.0...v1.12.1)
 
