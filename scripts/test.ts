@@ -43,6 +43,10 @@ const getBaseConfig = (options = {}) => ({
     '^jest-prettyhtml-matchers$': '<rootDir>/src',
   },
   preset: 'ts-jest',
+  snapshotFormat: {
+    escapeString: true,
+    printBasicPrototype: true,
+  },
   testMatch: ['<rootDir>/src/__tests__/*.test.ts'],
   ...options,
 })
