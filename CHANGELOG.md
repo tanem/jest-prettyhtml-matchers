@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.14.1](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.14.1) (2022-11-19)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.14.0...v1.14.1)
+
+#### :house: Internal
+
+- [#701](https://github.com/tanem/jest-prettyhtml-matchers/pull/701) Use consistent test snapshot format ([@tanem](https://github.com/tanem))
+
 ## [v1.14.0](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.14.0) (2022-11-19)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.13.1...v1.14.0)
 
