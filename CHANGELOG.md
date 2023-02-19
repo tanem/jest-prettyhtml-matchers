@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.15.2](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.15.2) (2023-02-19)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.15.1...v1.15.2)
+
+#### :house: Internal
+
+- [#750](https://github.com/tanem/jest-prettyhtml-matchers/pull/750) Update jest monorepo to v29.4.3 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.15.1](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.15.1) (2023-02-17)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.15.0...v1.15.1)
 
