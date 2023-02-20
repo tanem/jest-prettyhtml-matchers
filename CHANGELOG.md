@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.15.3](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.15.3) (2023-02-20)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.15.2...v1.15.3)
+
+#### :house: Internal
+
+- [#728](https://github.com/tanem/jest-prettyhtml-matchers/pull/728) Update dependency @types/fs-extra to v11 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.15.2](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.15.2) (2023-02-19)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.15.1...v1.15.2)
 
