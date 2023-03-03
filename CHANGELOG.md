@@ -1,5 +1,14 @@
 # Changelog
 
+## [v1.15.5](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.15.5) (2023-03-03)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.15.4...v1.15.5)
+
+#### :house: Internal
+
+- [#756](https://github.com/tanem/jest-prettyhtml-matchers/pull/756) Update dependency eslint to v8.35.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#755](https://github.com/tanem/jest-prettyhtml-matchers/pull/755) Update dependency tanem-scripts to v6.0.74 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#754](https://github.com/tanem/jest-prettyhtml-matchers/pull/754) Update dependency @types/glob to v8.1.0 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.15.4](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.15.4) (2023-02-24)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.15.3...v1.15.4)
 
