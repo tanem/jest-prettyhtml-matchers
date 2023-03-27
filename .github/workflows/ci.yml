@@ -19,5 +19,5 @@ jobs:
           node-version-file: '.nvmrc'
           check-latest: true
       - run: npm ci
-      - run: npm run ci
+      - run: npm test
       - uses: codecov/codecov-action@v3
