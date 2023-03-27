@@ -26,7 +26,6 @@
     "check": "run-s check:*",
     "check:format": "prettier --list-different \"**/*.{js,ts}\"",
     "check:types": "tsc --noEmit",
-    "ci": "run-s check lint clean compile test",
     "clean": "run-s clean:*",
     "clean:coverage": "del coverage",
     "clean:dist": "del dist ",
@@ -35,7 +34,7 @@
     "format": "prettier --write \"**/*.{js,ts}\"",
     "lint": "eslint . --ext .js,.ts",
     "release": "tanem-scripts release",
-    "test": "ts-node scripts/test"
+    "test": "run-s check lint clean compile && ts-node scripts/test"
   },
   "peerDependencies": {
     "jest": "^25.0.0 || ^26.0.0 || ^27.0.0 || ^28.0.0 || ^29.0.0",
