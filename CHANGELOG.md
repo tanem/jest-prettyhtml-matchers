@@ -1,5 +1,21 @@
 # Changelog
 
+## [v1.16.0](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.16.0) (2023-03-27)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.15.6...v1.16.0)
+
+#### :rocket: Enhancement
+
+- [#760](https://github.com/tanem/jest-prettyhtml-matchers/pull/760) Update jest monorepo to v29.5.0 ([@renovate[bot]](https://github.com/apps/renovate))
+
+#### :house: Internal
+
+- [#767](https://github.com/tanem/jest-prettyhtml-matchers/pull/767) Fix test script ([@tanem](https://github.com/tanem))
+- [#766](https://github.com/tanem/jest-prettyhtml-matchers/pull/766) Update tanem-scripts ([@tanem](https://github.com/tanem))
+- [#765](https://github.com/tanem/jest-prettyhtml-matchers/pull/765) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#764](https://github.com/tanem/jest-prettyhtml-matchers/pull/764) Add universal-user-agent override ([@tanem](https://github.com/tanem))
+- [#763](https://github.com/tanem/jest-prettyhtml-matchers/pull/763) Update dependency eslint to v8.36.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#762](https://github.com/tanem/jest-prettyhtml-matchers/pull/762) Update dependency tanem-scripts to v6.0.76 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.15.6](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.15.6) (2023-03-10)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.15.5...v1.15.6)
 
