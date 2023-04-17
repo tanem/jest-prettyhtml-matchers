@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.16.1](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.16.1) (2023-04-17)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.16.0...v1.16.1)
+
+#### :house: Internal
+
+- [#768](https://github.com/tanem/jest-prettyhtml-matchers/pull/768) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.16.0](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.16.0) (2023-03-27)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.15.6...v1.16.0)
 
