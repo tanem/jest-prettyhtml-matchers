@@ -14,12 +14,21 @@
     {
       "automerge": false,
       "groupName": "jest monorepo",
-      "labels": ["enhancement"],
-      "sourceUrlPrefixes": ["https://github.com/facebook/jest"],
-      "updateTypes": ["major", "minor"]
+      "labels": [
+        "enhancement"
+      ],
+      "sourceUrlPrefixes": [
+        "https://github.com/facebook/jest"
+      ],
+      "updateTypes": [
+        "major",
+        "minor"
+      ]
     },
     {
-      "depTypeList": ["dependencies"],
+      "depTypeList": [
+        "dependencies"
+      ],
       "rangeStrategy": "bump"
     },
     {
@@ -29,6 +38,5 @@
       "allowedVersions": "< 7.0.0"
     }
   ],
-  "prCreation": "not-pending",
   "stabilityDays": 3
 }
