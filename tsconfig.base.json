@@ -3,7 +3,6 @@
     "declaration": true,
     "declarationDir": "dist",
     "esModuleInterop": true,
-    "importsNotUsedAsValues": "error",
     "module": "commonjs",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
@@ -16,6 +15,11 @@
     "strict": true,
     "target": "es5"
   },
-  "exclude": ["node_modules", "src/__tests__"],
-  "include": ["src"]
+  "exclude": [
+    "node_modules",
+    "src/__tests__"
+  ],
+  "include": [
+    "src"
+  ]
 }
