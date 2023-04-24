@@ -1,5 +1,23 @@
 # Changelog
 
+## [v1.16.2](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.16.2) (2023-04-24)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.16.1...v1.16.2)
+
+#### :house: Internal
+
+- [#780](https://github.com/tanem/jest-prettyhtml-matchers/pull/780) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#777](https://github.com/tanem/jest-prettyhtml-matchers/pull/777) Update dependency typescript to v5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#779](https://github.com/tanem/jest-prettyhtml-matchers/pull/779) Update dependency @types/jest to v29.5.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#778](https://github.com/tanem/jest-prettyhtml-matchers/pull/778) Update typescript-eslint monorepo to v5.59.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#775](https://github.com/tanem/jest-prettyhtml-matchers/pull/775) Update dependency ts-jest to v29.1.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#774](https://github.com/tanem/jest-prettyhtml-matchers/pull/774) Update dependency eslint-config-prettier to v8.8.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#773](https://github.com/tanem/jest-prettyhtml-matchers/pull/773) Update dependency eslint to v8.38.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#776](https://github.com/tanem/jest-prettyhtml-matchers/pull/776) Update typescript-eslint monorepo to v5.58.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#772](https://github.com/tanem/jest-prettyhtml-matchers/pull/772) Update dependency tanem-scripts to v7.0.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#770](https://github.com/tanem/jest-prettyhtml-matchers/pull/770) Update dependency fs-extra to v11.1.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#771](https://github.com/tanem/jest-prettyhtml-matchers/pull/771) Update dependency prettier to v2.8.7 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#769](https://github.com/tanem/jest-prettyhtml-matchers/pull/769) Use default renovate prCreation setting ([@tanem](https://github.com/tanem))
+
 ## [v1.16.1](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.16.1) (2023-04-17)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.16.0...v1.16.1)
 
