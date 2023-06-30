@@ -1,5 +1,15 @@
 # Changelog
 
+## [v1.16.11](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.16.11) (2023-06-30)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.16.10...v1.16.11)
+
+#### :house: Internal
+
+- [#816](https://github.com/tanem/jest-prettyhtml-matchers/pull/816) Update typescript-eslint monorepo to v5.60.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#814](https://github.com/tanem/jest-prettyhtml-matchers/pull/814) Update typescript-eslint monorepo to v5.60.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#813](https://github.com/tanem/jest-prettyhtml-matchers/pull/813) Update dependency tanem-scripts to v7.0.10 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#812](https://github.com/tanem/jest-prettyhtml-matchers/pull/812) Update dependency eslint to v8.43.0 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.16.10](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.16.10) (2023-06-18)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.16.9...v1.16.10)
 
