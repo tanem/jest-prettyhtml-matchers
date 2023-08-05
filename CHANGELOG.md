@@ -1,5 +1,24 @@
 # Changelog
 
+## [v1.17.0](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.17.0) (2023-08-05)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.16.12...v1.17.0)
+
+#### :rocket: Enhancement
+
+- [#824](https://github.com/tanem/jest-prettyhtml-matchers/pull/824) Update jest monorepo ([@renovate[bot]](https://github.com/apps/renovate))
+
+#### :house: Internal
+
+- [#825](https://github.com/tanem/jest-prettyhtml-matchers/pull/825) Update dependency prettier to v3 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#838](https://github.com/tanem/jest-prettyhtml-matchers/pull/838) Update typescript-eslint monorepo to v6.2.1 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#837](https://github.com/tanem/jest-prettyhtml-matchers/pull/837) Update dependency eslint to v8.46.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#836](https://github.com/tanem/jest-prettyhtml-matchers/pull/836) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#835](https://github.com/tanem/jest-prettyhtml-matchers/pull/835) Update dependency eslint-config-prettier to v8.9.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#834](https://github.com/tanem/jest-prettyhtml-matchers/pull/834) Update typescript-eslint monorepo to v6.2.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#833](https://github.com/tanem/jest-prettyhtml-matchers/pull/833) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#832](https://github.com/tanem/jest-prettyhtml-matchers/pull/832) Update dependency tanem-scripts to v7.0.12 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#831](https://github.com/tanem/jest-prettyhtml-matchers/pull/831) Update typescript-eslint monorepo to v6.1.0 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.16.12](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.16.12) (2023-07-20)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.16.11...v1.16.12)
 
