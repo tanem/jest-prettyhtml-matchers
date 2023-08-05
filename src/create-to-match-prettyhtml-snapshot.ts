@@ -7,7 +7,7 @@ export const createToMatchPrettyHtmlSnapshot = (format: Format) =>
     this: any,
     received: string,
     options?: PrettyHtmlOptions | string,
-    hint?: string
+    hint?: string,
   ) {
     if (typeof options === 'object') {
       format = createFormatter(options)

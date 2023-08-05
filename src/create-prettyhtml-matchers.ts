@@ -9,7 +9,7 @@ declare global {
       toMatchInlinePrettyHtmlSnapshot(inlineSnapshot?: string): R
       toMatchInlinePrettyHtmlSnapshot(
         options?: PrettyHtmlOptions,
-        inlineSnapshot?: string
+        inlineSnapshot?: string,
       ): R
       toMatchPrettyHtmlSnapshot(hint?: string): R
       toMatchPrettyHtmlSnapshot(options: PrettyHtmlOptions, hint?: string): R

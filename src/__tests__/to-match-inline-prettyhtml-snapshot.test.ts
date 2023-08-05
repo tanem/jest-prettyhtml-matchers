@@ -64,7 +64,7 @@ describe('default global options', () => {
         />
       </svg>
       "
-    `
+    `,
     )
   })
 })
@@ -129,7 +129,7 @@ describe('custom global options', () => {
         />
       </svg>
       "
-    `
+    `,
     )
   })
 })

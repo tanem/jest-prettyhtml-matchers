@@ -28,7 +28,7 @@ describe('default global options', () => {
       {
         singleQuote: true,
       },
-      'hint'
+      'hint',
     )
   })
 })
@@ -59,7 +59,7 @@ describe('custom global options', () => {
         singleQuote: false,
         sortAttributes: true,
       },
-      'hint'
+      'hint',
     )
   })
 })

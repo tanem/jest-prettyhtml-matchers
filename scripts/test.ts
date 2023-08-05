@@ -23,7 +23,7 @@ const installPrereqs = (dir: string) => {
     {
       cwd: dir,
       stdio: 'inherit',
-    }
+    },
   )
 }
 
@@ -34,7 +34,7 @@ const runJest = (configPath: string, dir = process.cwd()) => {
     {
       cwd: dir,
       stdio: 'inherit',
-    }
+    },
   ))
 }
 
@@ -70,8 +70,8 @@ const runSrcTests = () => {
       getSrcConfig({
         collectCoverage: true,
         collectCoverageFrom: ['<rootDir>/src/*.ts'],
-      })
-    )
+      }),
+    ),
   )
   runJest(srcConfigPath)
 }
@@ -102,8 +102,8 @@ const runJestVersionTests = (jestVersion: string) => {
     JSON.stringify(
       getSrcConfig({
         rootDir,
-      })
-    )
+      }),
+    ),
   )
 
   fs.writeFileSync(
@@ -111,8 +111,8 @@ const runJestVersionTests = (jestVersion: string) => {
     JSON.stringify(
       getDistConfig({
         rootDir,
-      })
-    )
+      }),
+    ),
   )
 
   installPrereqs(rootDir)
