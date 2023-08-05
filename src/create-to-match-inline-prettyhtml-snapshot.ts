@@ -7,7 +7,7 @@ export const createToMatchInlinePrettyHtmlSnapshot = (format: Format) =>
     this: any,
     received: string,
     options?: PrettyHtmlOptions | string,
-    inlineSnapshot?: string
+    inlineSnapshot?: string,
   ) {
     if (typeof options === 'object') {
       format = createFormatter(options)
@@ -30,7 +30,7 @@ export const createToMatchInlinePrettyHtmlSnapshot = (format: Format) =>
         format(received),
         // @ts-ignore: Broken since type def changes in this PR
         // https://github.com/facebook/jest/pull/12376.
-        inlineSnapshot
+        inlineSnapshot,
       )
     }
 
