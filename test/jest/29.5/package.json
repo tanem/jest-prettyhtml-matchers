@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "devDependencies": {
+    "jest": "29.5",
+    "ts-jest": "29.x"
+  }
+}
