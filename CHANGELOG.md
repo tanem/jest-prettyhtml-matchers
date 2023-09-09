@@ -1,5 +1,17 @@
 # Changelog
 
+## [v1.17.4](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.17.4) (2023-09-09)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.17.3...v1.17.4)
+
+#### :house: Internal
+
+- [#868](https://github.com/tanem/jest-prettyhtml-matchers/pull/868) Update typescript-eslint monorepo to v6.6.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#867](https://github.com/tanem/jest-prettyhtml-matchers/pull/867) Update actions/checkout action to v4 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#866](https://github.com/tanem/jest-prettyhtml-matchers/pull/866) Update dependency tanem-scripts to v7.0.16 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#865](https://github.com/tanem/jest-prettyhtml-matchers/pull/865) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#864](https://github.com/tanem/jest-prettyhtml-matchers/pull/864) Update dependency del-cli to v5.1.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#863](https://github.com/tanem/jest-prettyhtml-matchers/pull/863) Update dependency prettier to v3.0.3 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.17.3](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.17.3) (2023-09-01)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.17.2...v1.17.3)
 
