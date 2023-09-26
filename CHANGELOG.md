@@ -1,5 +1,19 @@
 # Changelog
 
+## [v1.17.6](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.17.6) (2023-09-26)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.17.5...v1.17.6)
+
+#### :house: Internal
+
+- [#881](https://github.com/tanem/jest-prettyhtml-matchers/pull/881) Update dependency eslint to v8.50.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#880](https://github.com/tanem/jest-prettyhtml-matchers/pull/880) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#879](https://github.com/tanem/jest-prettyhtml-matchers/pull/879) Update typescript-eslint monorepo to v6.7.2 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#878](https://github.com/tanem/jest-prettyhtml-matchers/pull/878) Update dependency tanem-scripts to v7.0.18 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#877](https://github.com/tanem/jest-prettyhtml-matchers/pull/877) Update dependency @types/jest to v29.5.5 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#876](https://github.com/tanem/jest-prettyhtml-matchers/pull/876) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#875](https://github.com/tanem/jest-prettyhtml-matchers/pull/875) Lock file maintenance ([@renovate[bot]](https://github.com/apps/renovate))
+- [#874](https://github.com/tanem/jest-prettyhtml-matchers/pull/874) Update dependency @types/fs-extra to v11.0.2 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.17.5](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.17.5) (2023-09-16)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.17.4...v1.17.5)
 
