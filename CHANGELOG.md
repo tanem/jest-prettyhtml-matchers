@@ -1,5 +1,15 @@
 # Changelog
 
+## [v1.17.8](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.17.8) (2023-10-07)
+[Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.17.7...v1.17.8)
+
+#### :house: Internal
+
+- [#886](https://github.com/tanem/jest-prettyhtml-matchers/pull/886) Update styfle/cancel-workflow-action action to v0.12.0 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#885](https://github.com/tanem/jest-prettyhtml-matchers/pull/885) Update typescript-eslint monorepo to v6.7.4 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#884](https://github.com/tanem/jest-prettyhtml-matchers/pull/884) Update dependency tanem-scripts to v7.0.20 ([@renovate[bot]](https://github.com/apps/renovate))
+- [#883](https://github.com/tanem/jest-prettyhtml-matchers/pull/883) Update dependency tanem-scripts to v7.0.19 ([@renovate[bot]](https://github.com/apps/renovate))
+
 ## [v1.17.7](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.17.7) (2023-09-29)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.17.6...v1.17.7)
 
