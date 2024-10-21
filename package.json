@@ -46,8 +46,8 @@
   "devDependencies": {
     "@types/fs-extra": "11.0.4",
     "@types/jest": "29.5.13",
-    "@typescript-eslint/eslint-plugin": "7.18.0",
-    "@typescript-eslint/parser": "7.18.0",
+    "@typescript-eslint/eslint-plugin": "8.10.0",
+    "@typescript-eslint/parser": "8.10.0",
     "del": "6.1.1",
     "del-cli": "6.0.0",
     "eslint": "8.57.1",
