@@ -32,7 +32,7 @@
     "clean:test": "ts-node scripts/clean",
     "compile": "tsc -p tsconfig.base.json",
     "format": "prettier --write \"**/*.{js,ts}\"",
-    "lint": "eslint . --ext .js,.ts",
+    "lint": "eslint .",
     "release": "tanem-scripts release",
     "test": "run-s check lint clean compile && ts-node scripts/test"
   },
@@ -44,6 +44,8 @@
     "@starptech/prettyhtml": "^0.10.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "3.2.0",
+    "@eslint/js": "9.15.0",
     "@types/fs-extra": "11.0.4",
     "@types/jest": "29.5.14",
     "@typescript-eslint/eslint-plugin": "7.18.0",
