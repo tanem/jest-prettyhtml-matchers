@@ -4,7 +4,7 @@
     ":rebaseStalePrs",
     ":automergeAll",
     ":label(internal)",
-    ":masterIssue",
+    ":dependencyDashboard",
     ":enableVulnerabilityAlerts"
   ],
   "lockFileMaintenance": {
@@ -14,29 +14,18 @@
     {
       "automerge": false,
       "groupName": "jest monorepo",
-      "labels": [
-        "enhancement"
-      ],
-      "sourceUrlPrefixes": [
-        "https://github.com/facebook/jest"
-      ],
-      "updateTypes": [
-        "major",
-        "minor"
-      ]
+      "labels": ["enhancement"],
+      "matchUpdateTypes": ["major", "minor"],
+      "matchSourceUrls": ["https://github.com/facebook/jest{/,}**"]
     },
     {
-      "depTypeList": [
-        "dependencies"
-      ],
+      "matchDepTypes": ["dependencies"],
       "rangeStrategy": "bump"
     },
     {
-      "matchPackageNames": [
-        "del"
-      ],
+      "matchPackageNames": ["del"],
       "allowedVersions": "< 7.0.0"
     }
   ],
-  "stabilityDays": 3
+  "minimumReleaseAge": "3 days"
 }
