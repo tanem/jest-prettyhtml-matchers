@@ -3,8 +3,8 @@
     "declaration": true,
     "declarationDir": "dist",
     "esModuleInterop": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
@@ -13,7 +13,7 @@
     "removeComments": true,
     "sourceMap": true,
     "strict": true,
-    "target": "es5"
+    "target": "ES2015"
   },
   "exclude": [
     "node_modules",
