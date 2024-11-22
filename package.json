@@ -24,14 +24,14 @@
   "license": "MIT",
   "scripts": {
     "check": "run-s check:*",
-    "check:format": "prettier --list-different \"**/*.{js,ts}\"",
+    "check:format": "prettier --list-different \"**/*.{mjs,js,ts}\"",
     "check:types": "tsc --noEmit",
     "clean": "run-s clean:*",
     "clean:coverage": "del coverage",
     "clean:dist": "del dist ",
     "clean:test": "ts-node scripts/clean",
     "compile": "tsc -p tsconfig.base.json",
-    "format": "prettier --write \"**/*.{js,ts}\"",
+    "format": "prettier --write \"**/*.{mjs,js,ts}\"",
     "lint": "eslint .",
     "release": "tanem-scripts release",
     "test": "run-s check lint clean compile && ts-node scripts/test"
