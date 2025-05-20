@@ -60,7 +60,7 @@
     "npm-run-all2": "8.0.2",
     "prettier": "3.5.3",
     "tanem-scripts": "7.0.27",
-    "ts-jest": "29.3.3",
+    "ts-jest": "29.3.4",
     "ts-node": "10.9.2",
     "typescript": "5.8.3"
   }
