@@ -51,7 +51,7 @@
     "@typescript-eslint/eslint-plugin": "8.44.0",
     "@typescript-eslint/parser": "8.44.0",
     "del": "6.1.1",
-    "del-cli": "6.0.0",
+    "del-cli": "7.0.0",
     "eslint": "9.35.0",
     "eslint-config-prettier": "10.1.8",
     "fs-extra": "11.3.2",
