@@ -1,7 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "jest": "29.0",
+    "jest": "29.7",
     "ts-jest": "29.x",
     "typescript": "5.x"
   }

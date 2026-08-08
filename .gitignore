@@ -6,3 +6,4 @@ dist/
 jest.config.*
 node_modules/
 test/**/src/
+test/**/tsconfig.json
