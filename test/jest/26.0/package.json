@@ -2,6 +2,7 @@
   "private": true,
   "devDependencies": {
     "jest": "26.0",
-    "ts-jest": "26.x"
+    "ts-jest": "26.x",
+    "typescript": "4.x"
   }
 }
