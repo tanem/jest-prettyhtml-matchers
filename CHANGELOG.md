@@ -1,5 +1,9 @@
 # Changelog
 
+This file is frozen history: it covers releases up to and including v1.17.21,
+and is not regenerated any more. Everything released after that lives on
+[GitHub Releases](https://github.com/tanem/jest-prettyhtml-matchers/releases).
+
 ## [v1.17.21](https://github.com/tanem/jest-prettyhtml-matchers/tree/v1.17.21) (2026-03-02)
 [Full Changelog](https://github.com/tanem/jest-prettyhtml-matchers/compare/v1.17.20...v1.17.21)
 
