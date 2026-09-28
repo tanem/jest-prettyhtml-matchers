@@ -1,5 +1,7 @@
 # jest-prettyhtml-matchers
 
+> **Unmaintained.** This project is no longer maintained and the repository is archived. The npm package is deprecated.
+
 [![npm version](https://img.shields.io/npm/v/jest-prettyhtml-matchers.svg?style=flat-square)](https://www.npmjs.com/package/jest-prettyhtml-matchers)
 [![build status](https://img.shields.io/github/actions/workflow/status/tanem/jest-prettyhtml-matchers/ci.yml?style=flat-square)](https://github.com/tanem/jest-prettyhtml-matchers/actions?query=workflow%3ACI)
 [![coverage status](https://img.shields.io/codecov/c/github/tanem/jest-prettyhtml-matchers.svg?style=flat-square)](https://codecov.io/gh/tanem/jest-prettyhtml-matchers)
